@@ -46,6 +46,7 @@
             this.btnMonth = new CustomControls.RJControls.RJButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblReport = new System.Windows.Forms.Label();
+            this.rjButton1 = new CustomControls.RJControls.RJButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -344,6 +345,30 @@
             this.lblReport.Text = "Report";
             this.lblReport.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // rjButton1
+            // 
+            this.rjButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rjButton1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.rjButton1.BackgroundColor = System.Drawing.Color.DarkSlateGray;
+            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton1.BorderRadius = 20;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjButton1.ForeColor = System.Drawing.Color.White;
+            this.rjButton1.Image = ((System.Drawing.Image)(resources.GetObject("rjButton1.Image")));
+            this.rjButton1.Location = new System.Drawing.Point(294, 30);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(123, 120);
+            this.rjButton1.TabIndex = 0;
+            this.rjButton1.Text = "Yearly";
+            this.rjButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rjButton1.TextColor = System.Drawing.Color.White;
+            this.rjButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.rjButton1.UseVisualStyleBackColor = false;
+            this.rjButton1.Click += new System.EventHandler(this.btnYear_Click);
+            // 
             // frmReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -363,6 +388,7 @@
             this.Controls.Add(this.rjTextBox1);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.btnPeriod);
+            this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.btnYear);
             this.Controls.Add(this.btnMonth);
             this.Name = "frmReport";
@@ -394,5 +420,6 @@
         private System.Windows.Forms.Label lblYear2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblReport;
+        private CustomControls.RJControls.RJButton rjButton1;
     }
 }
