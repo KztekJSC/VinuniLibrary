@@ -1,0 +1,25 @@
+ERROR 2022-12-20 09:36:43,295  -  FillData
+Conversion failed when converting from a character string to uniqueidentifier.
+select * from tblQLSV where StudentID = ''
+ERROR 2022-12-20 10:00:17,683  -  OpenMDBConnectSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Futech.Tools.MDB.OpenMDBConnect()
+ERROR 2022-12-20 10:00:17,687  -  ExecuteCommand: Database Connection lost! 
+ERROR 2022-12-20 10:47:55,857  -  ExecuteCommand
+Column name or number of supplied values does not match table definition.
+insert into tblUser values (NEWID(),N'Ph?m Trung Kiên','kienpt','kienpino99','Admin', '0')
+ERROR 2022-12-20 11:23:49,174  -  OpenMDBConnectSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Futech.Tools.MDB.OpenMDBConnect()
+ERROR 2022-12-20 11:23:49,194  -  ExecuteCommand: Database Connection lost! 
+ERROR 2022-12-20 15:25:44,249  -  OpenMDBConnectSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Futech.Tools.MDB.OpenMDBConnect()
+ERROR 2022-12-20 15:25:44,259  -  ExecuteCommand: Database Connection lost! 
+ERROR 2022-12-20 16:06:49,061  -  FillData
+Invalid operation. The connection is closed.
+select * from tblQLSV where IsDelete = 0
+ERROR 2022-12-20 16:19:29,250  -  FillData
+Conversion failed when converting from a character string to uniqueidentifier.
+select * from tblQLSV where StudentID = ''
+ERROR 2022-12-20 17:25:03,648  -  ExecuteCommand
+Cannot open backup device 'F:\Work\VinUniver\Backup\Ð?t tên File VD: BackupLan1.bak'. Operating system error 5(Access is denied.).
+BACKUP DATABASE is terminating abnormally.
+BACKUP DATABASE VinUniver TO DISK = 'F:\Work\VinUniver\Backup\Ð?t tên File VD: BackupLan1.bak'

@@ -1,0 +1,99 @@
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.exe
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.pdb
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\x86\Release\NXT.Utilities.dll
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\x86\Release\Newtonsoft.Json.dll
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\x86\Release\ThoughtWorks.QRCode.dll
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\x86\Release\NXT.Utilities.pdb
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\x86\Release\Newtonsoft.Json.xml
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Form1.resources
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Properties.Resources.resources
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.GenerateResource.cache
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CoreCompileInputs.cache
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CopyComplete
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.exe
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.pdb
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Form2.resources
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.AssemblyReference.cache
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.exe
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.pdb
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\bin\x86\Release\Newtonsoft.Json.dll
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\bin\x86\Release\ThoughtWorks.QRCode.dll
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\bin\x86\Release\NXT.Utilities.pdb
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\bin\x86\Release\Newtonsoft.Json.xml
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.AssemblyReference.cache
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Form1.resources
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Form2.resources
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Properties.Resources.resources
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.GenerateResource.cache
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CoreCompileInputs.cache
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CopyComplete
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.exe
+F:\Work\VinUniver\Project TestReader_VinUni\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.pdb
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.exe
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.pdb
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\bin\x86\Release\Newtonsoft.Json.dll
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\bin\x86\Release\ThoughtWorks.QRCode.dll
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\bin\x86\Release\NXT.Utilities.pdb
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\bin\x86\Release\Newtonsoft.Json.xml
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.AssemblyReference.cache
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Form1.resources
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Form2.resources
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Properties.Resources.resources
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.GenerateResource.cache
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CoreCompileInputs.cache
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CopyComplete
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.exe
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.pdb
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.exe.config
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.exe
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.pdb
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\bin\x86\Release\Futech.Tools.dll
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\bin\x86\Release\log4net.dll
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\bin\x86\Release\NXT.Utilities.dll
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\bin\x86\Release\ThoughtWorks.QRCode.dll
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\bin\x86\Release\NXT.Utilities.pdb
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csprojAssemblyReference.cache
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.exe.config
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.frmReadCard.resources
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Properties.Resources.resources
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.GenerateResource.cache
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CoreCompileInputs.cache
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CopyComplete
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.exe
+F:\Project Winform\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver6\Project TestReader_VinUni - Moi Ver5\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.pdb
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.exe.config
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.exe
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.pdb
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\bin\x86\Release\Futech.Tools.dll
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\bin\x86\Release\log4net.dll
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\bin\x86\Release\NXT.Utilities.dll
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\bin\x86\Release\ThoughtWorks.QRCode.dll
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\bin\x86\Release\NXT.Utilities.pdb
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.AssemblyReference.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.SuggestedBindingRedirects.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.exe.config
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.frmReadCard.resources
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Properties.Resources.resources
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.GenerateResource.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CoreCompileInputs.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CopyComplete
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.exe
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver9\Project TestReader_VinUni - Moi Ver9\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.pdb
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.exe.config
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.exe
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\bin\x86\Release\TestReader_VinUni.pdb
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\bin\x86\Release\Futech.Tools.dll
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\bin\x86\Release\log4net.dll
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\bin\x86\Release\NXT.Utilities.dll
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\bin\x86\Release\ThoughtWorks.QRCode.dll
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\bin\x86\Release\NXT.Utilities.pdb
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.AssemblyReference.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.SuggestedBindingRedirects.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.exe.config
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.frmReadCard.resources
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.Properties.Resources.resources
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.GenerateResource.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CoreCompileInputs.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.csproj.CopyComplete
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.exe
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\TestReader_VinUni\obj\x86\Release\TestReader_VinUni.pdb

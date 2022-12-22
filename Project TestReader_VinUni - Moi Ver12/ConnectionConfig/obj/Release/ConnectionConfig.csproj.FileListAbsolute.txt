@@ -1,0 +1,14 @@
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\bin\Release\ConnectionConfig.exe.config
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\bin\Release\ConnectionConfig.exe
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\bin\Release\ConnectionConfig.pdb
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\bin\Release\Futech.Tools.dll
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\bin\Release\log4net.dll
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\obj\Release\ConnectionConfig.csproj.AssemblyReference.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\obj\Release\ConnectionConfig.csproj.SuggestedBindingRedirects.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\obj\Release\ConnectionConfig.Form1.resources
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\obj\Release\ConnectionConfig.Properties.Resources.resources
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\obj\Release\ConnectionConfig.csproj.GenerateResource.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\obj\Release\ConnectionConfig.csproj.CoreCompileInputs.cache
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\obj\Release\ConnectionConfig.csproj.CopyComplete
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\obj\Release\ConnectionConfig.exe
+F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver11\Project TestReader_VinUni - Moi Ver11\ConnectionConfig\obj\Release\ConnectionConfig.pdb

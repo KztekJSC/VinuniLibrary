@@ -1,0 +1,32 @@
+ERROR 2022-11-24 13:57:49,469  -  FillData
+Incorrect syntax near '.'.
+select tblRegister.CardNumber,MSSV, tblQLSV.StudentCode, tblQLSV.IsRegister from tblRegister inner join tblQLSV tblRegister.MSSV = tblQLSV.StudentCode where tblRegister.CardNumber = 'BF9FA4A0'
+ERROR 2022-11-24 14:14:35,599  -  FillData
+Ambiguous column name 'IsDelete'.
+select tblRegister.CardNumber,MSSV,tblRegister.IsDelete, tblQLSV.StudentCode, tblQLSV.IsRegister from tblRegister inner join tblQLSV on tblRegister.MSSV = tblQLSV.StudentCode where tblRegister.CardNumber = 'BF9FA4A0' and IsDelete = '0'
+ERROR 2022-11-24 14:16:07,339  -  FillData
+Ambiguous column name 'IsDelete'.
+select tblRegister.CardNumber,MSSV,tblRegister.IsDelete, tblQLSV.StudentCode, tblQLSV.IsRegister from tblRegister inner join tblQLSV on tblRegister.MSSV = tblQLSV.StudentCode where tblRegister.CardNumber = 'BF9FA4A0' and IsDelete = '0'
+ERROR 2022-11-24 16:44:52,177  -  ExecuteCommand
+Conversion failed when converting from a character string to uniqueidentifier.
+update tblQLSV set IsDelete = '1' where StudentID = ''
+ERROR 2022-11-24 16:45:34,223  -  ExecuteCommand
+Conversion failed when converting from a character string to uniqueidentifier.
+update tblQLSV set IsDelete = '1' where StudentID = ''
+ERROR 2022-11-24 22:41:54,715  -  OpenMDBConnectSystem.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Futech.Tools.MDB.OpenMDBConnect()
+ClientConnectionId:f55e5a3d-0fa1-4e8d-ab27-ca626ef105bd
+Error Number:18456,State:1,Class:14

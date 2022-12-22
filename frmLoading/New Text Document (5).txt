@@ -1,0 +1,61 @@
+ public enum ProgressBarDisplayText
+    {
+        Percentage,
+        CustomText
+    }
+
+    public class ProgressBarWithText : ProgressBar
+    {
+        //Property to set to decide whether to print a % or Text
+        private ProgressBarDisplayText DisplayStyle { get; set; } = ProgressBarDisplayText.CustomText;
+
+        //Property to hold the custom text
+        private string _mCustomText = string.Empty;
+
+        public string CustomText
+        {
+            get => _mCustomText;
+            set
+            {
+                _mCustomText = value;
+                this.Invalidate();
+            }
+        }
+
+        private const int WmPaint = 0x000F;
+
+        protected override void WndProc(ref Message m)
+        {
+            base.WndProc(ref m);
+
+            switch (m.Msg)
+            {
+                case WmPaint:
+                    var mPercent = Convert.ToInt32((Convert.ToDouble(Value) / Convert.ToDouble(Maximum)) * 100);
+                    const TextFormatFlags flags = TextFormatFlags.VerticalCenter | TextFormatFlags.HorizontalCenter |
+                                                  TextFormatFlags.SingleLine | TextFormatFlags.WordEllipsis;
+
+                    using (var g = Graphics.FromHwnd(Handle))
+                    {
+                        switch (DisplayStyle)
+                        {
+                            case ProgressBarDisplayText.CustomText:
+                                TextRenderer.DrawText(g, CustomText,
+                                    new Font("Segoe UI", Convert.ToSingle(11.25), FontStyle.Regular),
+                                    new Rectangle(0, 0, this.Width, this.Height), Color.Black, flags);
+                                break;
+                            case ProgressBarDisplayText.Percentage:
+                                TextRenderer.DrawText(g, $"{mPercent}%",
+                                    new Font("Segoe UI", Convert.ToSingle(11.25), FontStyle.Regular),
+                                    new Rectangle(0, 0, this.Width, this.Height), Color.Black, flags);
+                                break;
+                            default:
+                                break;
+                                ;
+                        }
+                    }
+
+                    break;
+            }
+        }
+    }

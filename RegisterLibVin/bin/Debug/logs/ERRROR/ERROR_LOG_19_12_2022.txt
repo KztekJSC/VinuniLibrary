@@ -1,0 +1,6 @@
+ERROR 2022-12-19 10:49:22,832  -  ExecuteCommand
+A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+insert into tblLog values('bc7935be-140d-414e-9a5d-6dc960085d9b','2022-12-19 10:48:49.142',N'SuperAdmin',N'Page Home',N'Ngu?i dùng Log out',N'DESKTOP-KIEN')
+ERROR 2022-12-19 13:30:24,765  -  OpenMDBConnectSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Futech.Tools.MDB.OpenMDBConnect()
+ERROR 2022-12-19 13:30:24,778  -  ExecuteCommand: Database Connection lost! 

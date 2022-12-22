@@ -1,0 +1,12 @@
+ERROR 2022-12-21 10:06:15,952  -  FillData
+Conversion failed when converting from a character string to uniqueidentifier.
+select * from tblQLSV where StudentID = ''
+ERROR 2022-12-21 10:08:10,086  -  FillData
+Conversion failed when converting from a character string to uniqueidentifier.
+select * from tblQLSV where StudentID = ''
+ERROR 2022-12-21 16:02:23,552  -  OpenMDBConnectSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Futech.Tools.MDB.OpenMDBConnect()
+ERROR 2022-12-21 16:02:23,559  -  ExecuteCommand: Database Connection lost! 
+ERROR 2022-12-21 17:00:46,197  -  OpenMDBConnectSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Futech.Tools.MDB.OpenMDBConnect()
+ERROR 2022-12-21 17:00:46,211  -  ExecuteCommand: Database Connection lost! 

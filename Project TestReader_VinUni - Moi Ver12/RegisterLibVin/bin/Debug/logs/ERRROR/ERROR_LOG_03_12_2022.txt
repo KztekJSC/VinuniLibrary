@@ -1,0 +1,39 @@
+ERROR 2022-12-03 15:33:31,570  -  FillData
+Conversion failed when converting from a character string to uniqueidentifier.
+select * from tblQLSV where StudentID = 'BF84D570'
+ERROR 2022-12-03 15:40:25,377  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-12-03 15:40:26,650  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-12-03 15:40:27,554  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '1'
+ERROR 2022-12-03 15:40:28,098  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-12-03 15:40:28,508  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-12-03 15:40:28,898  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-12-03 15:40:29,633  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '1'
+ERROR 2022-12-03 15:40:30,042  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-12-03 15:40:30,434  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-12-03 15:40:31,122  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-12-03 15:40:31,521  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '1'
+ERROR 2022-12-03 15:40:32,419  -  FillData
+The multi-part identifier "tblStudent.StudentID" could not be bound.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblRegister.StudentID = tblStudent.StudentID 

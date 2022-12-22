@@ -1,0 +1,37 @@
+ERROR 2022-12-08 09:35:19,110  -  ExecuteCommand
+Conversion failed when converting from a character string to uniqueidentifier.
+update tblQLSV set STT = '1',Surname = N'Amita',Name = N'Verma',Email = N'amita.v@vinuni.edu.vn',StudentCode = '3600904',PhoneNumber = '123123',CardID = '122366560006681',Note = N'Faculty, Graduated students',IsRegister = '0',IsDelete = '0' where StudentID = ''
+ERROR 2022-12-08 10:43:44,921  -  ExecuteCommand
+Cannot open backup device 'F:\Work\VinUniver\Backup	est.bak'. Operating system error 123(The filename, directory name, or volume label syntax is incorrect.).
+BACKUP DATABASE is terminating abnormally.
+BACKUP DATABASE VinUniver TO DISK = 'F:\Work\VinUniver\Backup	est.bak'
+ERROR 2022-12-08 11:35:32,200  -  FillData
+Conversion failed when converting from a character string to uniqueidentifier.
+select * from tblQLSV where StudentID = ''
+ERROR 2022-12-08 11:35:42,582  -  FillData
+Conversion failed when converting from a character string to uniqueidentifier.
+select * from tblQLSV where StudentID = ''
+ERROR 2022-12-08 11:35:48,971  -  FillData
+Conversion failed when converting from a character string to uniqueidentifier.
+select * from tblQLSV where StudentID = ''
+ERROR 2022-12-08 11:36:43,485  -  FillData
+Conversion failed when converting from a character string to uniqueidentifier.
+select * from tblQLSV where StudentID = ''
+ERROR 2022-12-08 11:51:34,644  -  FillData
+Conversion failed when converting from a character string to uniqueidentifier.
+select * from tblQLSV where StudentID = ''
+ERROR 2022-12-08 11:57:19,937  -  FillData
+Invalid column name 'UserFullName'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentID = tblRegister.StudentID where tblQLSV.UserFullName like '%S%' 
+ERROR 2022-12-08 11:57:20,073  -  FillData
+Invalid column name 'UserFullName'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentID = tblRegister.StudentID where tblQLSV.UserFullName like '%S%' 
+ERROR 2022-12-08 11:57:23,952  -  FillData
+Invalid column name 'UserFullName'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentID = tblRegister.StudentID where tblQLSV.UserFullName like '%%' 
+ERROR 2022-12-08 11:57:24,865  -  FillData
+Invalid column name 'UserFullName'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentID = tblRegister.StudentID where tblQLSV.UserFullName like '%%' 
+ERROR 2022-12-08 11:57:25,032  -  FillData
+Invalid column name 'UserFullName'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentID = tblRegister.StudentID where tblQLSV.UserFullName like '%%' 

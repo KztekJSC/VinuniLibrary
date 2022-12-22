@@ -1,0 +1,208 @@
+ERROR 2022-11-18 08:55:15,819  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete
+from tblRegister
+inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID
+ERROR 2022-11-18 09:12:38,189  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete
+from tblRegister
+inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID
+ERROR 2022-11-18 09:12:49,636  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 09:12:50,099  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 09:21:37,650  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete
+from tblRegister
+inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID
+ERROR 2022-11-18 09:58:54,480  -  ExecuteCommand
+Incorrect syntax near ','.
+update tblQLSV set IsDelete = '0' where Surname = N'Hoàng Th?',Name = N'Mai',Email = N'Mai@gmail.com',StudentCode = '223',PhoneNumber = '2131223',Note = N'Không',IsDelete = '1'
+ERROR 2022-11-18 10:26:57,420  -  ExecuteCommand
+Incorrect syntax near ','.
+update tblQLSV set IsDelete = '0' where Surname = N'Nguy?n Van',Name = N'Kien',Email = N'Troi@gmail.com',StudentCode = '20173999',PhoneNumber = '012167788',Note = N'Không',IsDelete = '1'
+ERROR 2022-11-18 11:47:53,275  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 11:47:53,851  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 11:47:54,603  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 11:47:55,395  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 11:47:56,204  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 11:47:56,819  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 11:47:57,508  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '1'
+ERROR 2022-11-18 11:47:58,163  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 11:47:58,169  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '1'
+ERROR 2022-11-18 11:47:58,174  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 11:47:58,483  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 11:47:58,915  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 11:57:01,451  -  FillData
+Incorrect syntax near the keyword 'inner'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDeletefrom tblQLSV inner join tblRegister on tblQLSV.StudentCode = tblRegister.MSSV
+ERROR 2022-11-18 11:57:42,810  -  FillData
+Incorrect syntax near the keyword 'inner'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDeletefrom tblQLSV inner join tblRegister on tblQLSV.StudentCode = tblRegister.MSSV
+ERROR 2022-11-18 12:00:21,186  -  FillData
+Incorrect syntax near '.'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentCode = tblRegister.MSSV where IsDelete = '0'
+ERROR 2022-11-18 12:00:21,199  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 12:00:22,628  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 12:00:23,507  -  FillData
+Incorrect syntax near '.'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentCode = tblRegister.MSSV where IsDelete = '0'
+ERROR 2022-11-18 12:00:23,514  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 12:00:24,175  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 12:00:25,114  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 12:00:25,977  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 12:01:21,195  -  FillData
+Incorrect syntax near '.'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentCode = tblRegister.MSSV where IsDelete = '0'
+ERROR 2022-11-18 12:03:14,970  -  FillData
+Ambiguous column name 'IsDelete'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentCode = tblRegister.MSSV where IsDelete = '0'
+ERROR 2022-11-18 12:03:14,983  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 12:03:18,139  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 12:03:19,068  -  FillData
+Ambiguous column name 'IsDelete'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentCode = tblRegister.MSSV where IsDelete = '0'
+ERROR 2022-11-18 12:03:19,073  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 12:03:19,721  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 12:03:20,537  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID 
+ERROR 2022-11-18 12:37:58,367  -  FillData
+Ambiguous column name 'IsDelete'.
+select '1',tblQLSV.Surname,Name,Email,StudentCode,PhoneNumber,tblQLSV.CardID , tblRegister.DateTime,UserFullName, tblQLSV.Note, tblRegister.IsDelete from tblQLSV inner join tblRegister on tblQLSV.StudentCode = tblRegister.MSSV where IsDelete = '0'
+ERROR 2022-11-18 12:39:42,342  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblRegister.IsDelete = '0'
+ERROR 2022-11-18 12:58:31,296  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblStudent.StudentName like '%K%' 
+ERROR 2022-11-18 12:58:31,938  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblStudent.StudentName like '%Ki%' 
+ERROR 2022-11-18 12:58:32,341  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblStudent.StudentName like '%Kie%' 
+ERROR 2022-11-18 12:58:32,701  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblStudent.StudentName like '%Kien%' 
+ERROR 2022-11-18 12:58:33,499  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblStudent.StudentName like '%Kie%' 
+ERROR 2022-11-18 12:58:34,012  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblStudent.StudentName like '%Ki%' 
+ERROR 2022-11-18 12:58:34,040  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblStudent.StudentName like '%K%' 
+ERROR 2022-11-18 12:58:34,072  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblStudent.StudentName like '%%' 
+ERROR 2022-11-18 12:58:48,396  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblStudent.StudentCode like '%1%' 
+ERROR 2022-11-18 12:58:48,870  -  FillData
+Invalid object name 'tblStudent'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete from tblRegister inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID where tblStudent.StudentCode like '%12%' 
+ERROR 2022-11-18 13:38:51,344  -  OpenMDBConnectSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Futech.Tools.MDB.OpenMDBConnect()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2022-11-18 13:38:55,221  -  OpenMDBConnectSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Futech.Tools.MDB.OpenMDBConnect()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2022-11-18 13:38:55,221  -  FillData: Database Connection lost!
+ERROR 2022-11-18 13:38:55,221  -  OpenMDBConnectSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Futech.Tools.MDB.OpenMDBConnect()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2022-11-18 13:38:55,221  -  FillData: Database Connection lost!
+ERROR 2022-11-18 15:01:56,042  -  FillData
+Invalid object name 'tblRegisted'.
+select * from tblRegisted where MSSV = '' and IsDelete = '0'
+ERROR 2022-11-18 15:03:35,423  -  FillData
+Invalid object name 'tblRegisted'.
+select * from tblRegisted where MSSV = '123232' and IsDelete = '0'
+ERROR 2022-11-18 15:04:00,042  -  FillData
+Invalid object name 'tblRegisted'.
+select * from tblRegisted where MSSV = '123232' and IsDelete = '0'
+ERROR 2022-11-18 15:04:50,353  -  FillData
+Invalid object name 'tblRegisted'.
+select * from tblRegisted where MSSV = '123232' and IsDelete = '0'

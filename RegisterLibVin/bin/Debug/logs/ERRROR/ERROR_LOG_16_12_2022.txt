@@ -1,0 +1,36 @@
+ERROR 2022-12-16 09:54:47,413  -  ExecuteCommand
+A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)
+insert into tblLog values('1824ff46-c795-4113-828f-8adef7fe7ef0','2022-12-16 09:54:38.177',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang Admin',N'',N'PC-KIEN')
+ERROR 2022-12-16 10:24:56,358  -  ExecuteCommand
+Cannot open backup device 'F:\Work\VinUniver\Backup\BackupVin.bak'. Operating system error 5(Access is denied.).
+BACKUP DATABASE is terminating abnormally.
+BACKUP DATABASE VinUniver TO DISK = 'F:\Work\VinUniver\Backup\BackupVin.bak'
+ERROR 2022-12-16 15:37:06,323  -  FillData
+Invalid column name 'IsDelete'.
+Invalid column name 'IsDelete'.
+select tblUser.FullName,UserName,Password,AccessPermission,IsLock,IsDelete,UserID from tblUser where IsDelete = 0
+ERROR 2022-12-16 15:37:08,800  -  FillData
+Invalid column name 'LogAction'.
+SELECT [Date],[UserName],[LogAction],[PCName] FROM tblLog
+ERROR 2022-12-16 15:44:05,395  -  FillData
+Invalid column name 'LogAction'.
+SELECT [Date],[UserName],[LogAction],[PCName] FROM tblLog
+ERROR 2022-12-16 17:14:36,871  -  ExecuteCommand
+Incorrect syntax near the keyword 'or'.
+insert into tblLog values(N'f4ece77d-bad8-4144-aa57-b06b1a4e4235',N'2022-12-16 17:14:04.813',N'SuperAdmin',N'Page Deleted Student List',N'Ngu?i dùng xóa thành công d? li?u v?i MSV: v202100610',N'PC-KIEN' or (N'3a7e58f7-abd6-45a9-a78d-cdf6d2f8b1d0',N'2022-12-16 17:14:20.224',N'SuperAdmin',N'Page Deleted Student List',N'Ngu?i dùng xóa thành công d? li?u v?i MSV: 0332111949',N'PC-KIEN'
+ERROR 2022-12-16 17:16:13,480  -  OpenMDBConnectSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Futech.Tools.MDB.OpenMDBConnect()
+ERROR 2022-12-16 17:16:13,496  -  ExecuteCommand: Database Connection lost! 
+ERROR 2022-12-16 17:16:30,073  -  ExecuteCommand
+Incorrect syntax near ','.
+insert into tblLog values(N'd0c5e64d-6084-4f74-8813-7529ca0a7aa7',N'2022-12-16 17:16:25.790',N'SuperAdmin',N'Page Deleted Student List',N'Ngu?i dùng xóa thành công d? li?u v?i MSV: ',N'PC-KIEN',(N'9452a2f6-0f31-4537-b188-80ed8259bd0e',N'2022-12-16 17:16:25.790',N'SuperAdmin',N'Page Deleted Student List',N'Ngu?i dùng xóa thành công d? li?u v?i MSV: 0583846636',N'PC-KIEN'
+ERROR 2022-12-16 20:00:52,597  -  FillData
+Invalid column name 'IsDelete'.
+Invalid column name 'IsDelete'.
+select tblUser.FullName,UserName,Password,AccessPermission,IsLock,IsDelete,UserID from tblUser where IsDelete = 0
+ERROR 2022-12-16 20:08:22,193  -  ExecuteCommand
+Incorrect syntax near 'where'.
+update tblQLSV set IsDelete = '0' where 
+ERROR 2022-12-16 20:08:24,133  -  ExecuteCommand
+Incorrect syntax near 'where'.
+update tblQLSV set IsDelete = '0' where 

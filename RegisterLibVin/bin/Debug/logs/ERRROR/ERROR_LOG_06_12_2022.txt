@@ -1,0 +1,3 @@
+ERROR 2022-12-06 15:41:38,337  -  ExecuteCommand
+Conversion failed when converting from a character string to uniqueidentifier.
+update tblQLSV set STT = '1',Surname = N'222',Name = N'223',Email = N'asdfdfsmita.v@vinuni.edu.vn',StudentCode = 'sfsd2342',PhoneNumber = '',CardID = '222',Note = N'23423Faculty, Graduated students',IsRegister = '0',IsDelete = '0' where StudentID = ''

@@ -1,0 +1,112 @@
+ERROR 2022-11-17 11:43:56,643  -  FillData
+Invalid object name 'tblImport'.
+select * from tblImport
+ERROR 2022-11-17 11:44:06,001  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'1',N'Ph?m Trung',N'Kiên',N'kien@gmail.com',N'123232',N'217527153',N'6E1D72H',N'Không')
+ERROR 2022-11-17 11:44:15,241  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'2',N'Nguy?n Van',N'Hoàng',N'Hoang@gmail.com',N'132615',N'testNull',N'JI32IJH',N'Không')
+ERROR 2022-11-17 11:44:16,561  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'3',N'Tr?n Minh',N'Hà',N'Ha@gmail.com',N'621542',N'393688717',N'HNAGH76',N'Không')
+ERROR 2022-11-17 11:44:17,142  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'4',N'Vu Th? ',N'Lan Anh',N'Anh@gmail.com',N'51622',N'87128722',N'K32JK3',N'Không')
+ERROR 2022-11-17 11:44:18,231  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'5',N'Nguy?n Van',N'Tú',N'Tu@gmail.com',N'1232312',N'2371263812',N'HJ3JH32U',N'Không')
+ERROR 2022-11-17 11:44:24,200  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'6',N'Tr?n Bích',N'Ng?c',N'Ngoc@gmail.com',N'12323',N'712572335',N'JKKDSKH3',N'Không')
+ERROR 2022-11-17 11:44:24,688  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'7',N'Hoàng Th?',N'Mai',N'Mai@gmail.com',N'223',N'2131223',N'UDHU3',N'Không')
+ERROR 2022-11-17 11:44:25,239  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'8',N'Lê Xuân',N'Vi?t',N'Viet@gmail.com',N'3112',N'12389721',N'HIU32',N'Không')
+ERROR 2022-11-17 11:44:25,888  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'9',N'Tr?n H?i',N'Tú',N'Tu@gmail.com',N'23423243',N'1263213',N'JH23E3',N'Không')
+ERROR 2022-11-17 11:44:26,423  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'10',N'Nguy?n H?i ',N'Ðang',N'Dang@gmail.com',N'232',N'12638261',N'G23G23',N'Không')
+ERROR 2022-11-17 11:44:27,119  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'',N'',N'',N'',N'',N'',N'',N'')
+ERROR 2022-11-17 11:50:07,545  -  FillData
+Invalid object name 'tblImport'.
+select * from tblImport
+ERROR 2022-11-17 11:50:17,567  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'1',N'Ph?m Trung',N'Kiên',N'kien@gmail.com',N'123232',N'217527153',N'6E1D72H',N'Không','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:50:35,359  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'2',N'Nguy?n Van',N'Hoàng',N'Hoang@gmail.com',N'132615',N'testNull',N'JI32IJH',N'Không','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:50:36,895  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'3',N'Tr?n Minh',N'Hà',N'Ha@gmail.com',N'621542',N'393688717',N'HNAGH76',N'Không','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:50:37,053  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'4',N'Vu Th? ',N'Lan Anh',N'Anh@gmail.com',N'51622',N'87128722',N'K32JK3',N'Không','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:50:37,237  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'5',N'Nguy?n Van',N'Tú',N'Tu@gmail.com',N'1232312',N'2371263812',N'HJ3JH32U',N'Không','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:50:37,399  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'6',N'Tr?n Bích',N'Ng?c',N'Ngoc@gmail.com',N'12323',N'712572335',N'JKKDSKH3',N'Không','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:50:37,542  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'7',N'Hoàng Th?',N'Mai',N'Mai@gmail.com',N'223',N'2131223',N'UDHU3',N'Không','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:50:37,704  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'8',N'Lê Xuân',N'Vi?t',N'Viet@gmail.com',N'3112',N'12389721',N'HIU32',N'Không','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:50:37,885  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'9',N'Tr?n H?i',N'Tú',N'Tu@gmail.com',N'23423243',N'1263213',N'JH23E3',N'Không','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:50:38,076  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'10',N'Nguy?n H?i ',N'Ðang',N'Dang@gmail.com',N'232',N'12638261',N'G23G23',N'Không','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:50:38,246  -  ExecuteCommand
+Invalid object name 'tblImport'.
+insert into tblImport values(N'',N'',N'',N'',N'',N'',N'',N'','0','0','216c8059-bbb3-4cef-ad76-6ae73124ac99')
+ERROR 2022-11-17 11:53:55,875  -  ExecuteCommand
+Incorrect syntax near ')'.
+insert into tblQLSV values('1','Tr?n Van','Linh','Linh@gmail.com','1535336',)values('081928172','K32JK3','Không','0','0','2622572f-2197-45b7-992e-5351ba1438bb')
+ERROR 2022-11-17 16:10:07,024  -  ExecuteCommand
+Incorrect syntax near ','.
+update tblQLSV set IsDelete = '0' where Surname = N'sdfsd',Name = N'sdfsd',Email = N'sdfsdf',StudentCode = 'dsfg',PhoneNumber = 'fdgdfg',Note = N'fdgdf',IsDelete = '1'
+ERROR 2022-11-17 16:18:17,083  -  FillData
+Invalid column name 'StudentName'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete
+from tblRegister
+inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID
+ERROR 2022-11-17 16:19:30,418  -  FillData
+Invalid column name 'StudentName'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete
+from tblRegister
+inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID
+ERROR 2022-11-17 16:19:38,309  -  FillData
+Invalid column name 'StudentName'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete
+from tblRegister
+inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID
+ERROR 2022-11-17 16:30:42,405  -  FillData
+Invalid column name 'StudentName'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete
+from tblRegister
+inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID
+ERROR 2022-11-17 16:31:51,564  -  FillData
+Invalid column name 'StudentName'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete
+from tblRegister
+inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID
+ERROR 2022-11-17 16:32:41,389  -  FillData
+Invalid column name 'StudentName'.
+select tblRegister.CardNumber,tblRegister.StudentName,tblStudent.StudentCode,Khoa,Gmail,PhoneNumber,Other,tblRegister.DateTime,UserFullName,tblRegister.IsDelete
+from tblRegister
+inner join tblStudent on tblRegister.StudentID = tblStudent.StudentID
+ERROR 2022-11-17 16:38:25,362  -  ExecuteCommand
+Invalid object name 'tblCardEvent'.
+Changed database context to 'VinUniver'.
+use VinUniver; insert into tblCardEvent values ('4353f3bc-5d1e-499a-8a32-1f55452f4ab3', 'BF9FA4A0', '11/17/2022 4:38:25 PM', '', '123232', '','','False')

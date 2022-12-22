@@ -1,0 +1,15 @@
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\Debug\TestReader_VinUni.exe
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\Debug\TestReader_VinUni.pdb
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\Debug\TestReader_VinUni.csprojAssemblyReference.cache
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\Debug\TestReader_VinUni.Form1.resources
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\Debug\TestReader_VinUni.Properties.Resources.resources
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\Debug\TestReader_VinUni.csproj.GenerateResource.cache
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\Debug\TestReader_VinUni.csproj.CoreCompileInputs.cache
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\Debug\TestReader_VinUni.exe
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\Debug\TestReader_VinUni.pdb
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\Debug\NXT.Utilities.dll
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\Debug\Newtonsoft.Json.dll
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\Debug\ThoughtWorks.QRCode.dll
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\Debug\NXT.Utilities.pdb
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\bin\Debug\Newtonsoft.Json.xml
+E:\Test Projects\TestReader_VinUni\TestReader_VinUni\obj\Debug\TestReader_VinUni.csproj.CopyComplete

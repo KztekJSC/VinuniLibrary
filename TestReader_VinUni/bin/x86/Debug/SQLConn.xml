@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSQLConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SQLConn>
+    <DatabaseIp>103.127.207.247</DatabaseIp>
+    <DBType />
+    <SQLServerName>LibraryVin</SQLServerName>
+    <SQLDatabase>VinUniver</SQLDatabase>
+    <SQLUserName>sa</SQLUserName>
+    <SQLPassword>HerxA4VhWFPyHT6z2J0iZg==</SQLPassword>
+    <SQLAuthentication>SQl Server Authentication</SQLAuthentication>
+    <SQLDatabaseEx>MPARKING</SQLDatabaseEx>
+    <IsDefaultDB>false</IsDefaultDB>
+  </SQLConn>
+</ArrayOfSQLConn>

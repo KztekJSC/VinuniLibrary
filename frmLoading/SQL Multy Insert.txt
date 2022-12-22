@@ -1,0 +1,55 @@
+List<string> insertCMDs = new List<string>();
+
+            string[] insertCMD_array = new string[1000];
+            int j = 0, i = 1;
+            List<string> test = new List<string>();
+            foreach (string controllerID in controllerIDs)
+            {
+                foreach (Employee emp in employees)
+                {
+                    if (i <= (j + 1) * 1000)
+                    {
+                        if (i % 1000 == 0)
+                        {
+                            int x = 0;
+                        }
+                        insertCMD_array[i % 1000 == 0 ? 1000 - 1 : i % 1000 - 1] = $@"('{controllerID}', 1, 0, 0, '{emp.AccessLevelID}', '{emp.CardType}', N'{emp.CardNumber}', N'{emp.CustomerName}', {emp.UserIDofFinger}, '{emp.CustomerId}', '{StaticPool.selecteUserID}')";
+                    }
+                    else
+                    {
+                        insertCMDs.Add(insertCMD + string.Join(",", insertCMD_array));
+                        insertCMD_array = new string[1000];
+                        j++;
+                        insertCMD_array[0] = $@"('{controllerID}', 1, 0, 0, '{emp.AccessLevelID}', '{emp.CardType}', '{emp.CardNumber}', N'{emp.CustomerName}', {emp.UserIDofFinger}, '{emp.CustomerId}', '{StaticPool.selecteUserID}')";
+                    }
+                    i++;
+                }
+            }
+            if (insertCMDs.Count < j + 1)
+            {
+                insertCMDs.Add(insertCMD + string.Join(",", insertCMD_array.Where(x => !string.IsNullOrEmpty(x)).ToArray()));
+            }
+
+            bool isAllSuccess = true;
+            foreach (string _insertCMD in insertCMDs)
+            {
+                if (!StaticPool.mdb.ExecuteCommand(_insertCMD))
+                {
+                    if (!StaticPool.mdb.ExecuteCommand(_insertCMD))
+                    {
+                        isAllSuccess = false;
+                        break;
+                    }
+                }
+            }
+            if (isAllSuccess)
+            {
+                frmResult frm = new frmResult(maxInsertRecord, 0, true);
+                frm.Show();
+            }
+            else
+            {
+                StaticPool.mdb.ExecuteCommand("DELETE tblWaitingControlCard");
+                MessageBox.Show("Kết Nối Tới Server Không Ổn Định, Hãy Kiểm Tra Lại");
+                return;
+            }

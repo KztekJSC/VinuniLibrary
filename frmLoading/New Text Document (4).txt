@@ -1,0 +1,321 @@
+using Futech.Tools;
+using iParkingPGS.Databases;
+using iParkingPGS.Object;
+using iParkingPGS.UserControls;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace iParkingPGS.Forms.SystemForms
+{
+    public partial class frmLoading : Form
+    {
+        #region: Properties
+        private readonly ProgressBarWithText _progressBarWithText;
+        private static Regex regexCheckNumber = new Regex("^[0-9]+$");
+        Dictionary<string, Action> loadingWorks = new Dictionary<string, Action>();
+        #endregion: End Properties
+
+        #region: Forms
+        public frmLoading()
+        {
+            InitializeComponent();
+            _progressBarWithText = new ProgressBarWithText();
+            _progressBarWithText.Minimum = 0;
+            _progressBarWithText.Value = 0;
+            _progressBarWithText.Dock = DockStyle.Bottom;
+            Controls.Add(_progressBarWithText);
+            Controls.SetChildIndex(_progressBarWithText, 0);
+
+            loadingWorks.Add("Tải Thông Tin ZCU...", new Action(() => LoadZcuData()));
+            loadingWorks.Add("Tải Thông Tin Led...", new Action(() => LoadLedData()));
+            loadingWorks.Add("Tải Thông Tin Bảng Led Ngoài Trời...", new Action(() => LoadOutdoorLed()));
+            loadingWorks.Add("Tải Thông Tin Floor...", new Action(() => LoadFloor()));
+            loadingWorks.Add("Tải Thông Tin Chi Tiết Zone-Led...", new Action(() => LoadLedDetail()));
+            loadingWorks.Add("Tải Thông Tin Zone...", new Action(() => LoadZone()));
+            loadingWorks.Add("Tải Thông Tin Loop...", new Action(() => LoadLoop()));
+            _progressBarWithText.Maximum = loadingWorks.Count;
+        }
+        private async void frmLoading_Load(object sender, EventArgs e)
+        {
+            StaticPool.CcuAsClient = Properties.Settings.Default.CcuAsClient;
+            foreach (KeyValuePair<string, Action> actions in loadingWorks)
+            {
+                MultipleThreadTool.InvokeControl(_progressBarWithText, () => UpdateCurrentProgressStatus(actions.Key));
+                actions.Value();
+                await Task.Delay(1);
+            }
+            this.DialogResult = DialogResult.OK;
+        }
+        #endregion: End Forms
+
+        #region: Controls In Form
+        #endregion: End Controls In Form
+
+        #region: Private Function
+        private void UpdateCurrentProgressStatus(string data)
+        {
+            _progressBarWithText.Value++;
+            _progressBarWithText.CustomText = data;
+        }
+        //ZCU
+        private static DataTable LoadZcuData()
+        {
+            DataTable dtZCU = StaticPool.mdb.FillData("select Id, Code, Description, CCUId, Address, IPAddress, Port from tblZCU order by Address");
+            StaticPool.zcus.Clear();
+            if (dtZCU != null && dtZCU.Rows.Count > 0)
+            {
+                for (int i = 0; i < dtZCU.Rows.Count; i++)
+                {
+                    DataRowView drvZCU = dtZCU.DefaultView[i];
+                    ZCU zcu = new ZCU();
+
+                    string id = drvZCU["Id"].ToString();
+                    if (regexCheckNumber.IsMatch(id))
+                        zcu.Id = id != "" ? Convert.ToInt32(id) : 0;
+
+                    zcu.Code = drvZCU["Code"].ToString();
+                    zcu.Description = drvZCU["Description"].ToString();
+                    zcu.CCUId = drvZCU["CCUId"].ToString();
+
+                    string address = drvZCU["Address"].ToString();
+                    if (regexCheckNumber.IsMatch(address))
+                        zcu.Address = address != "" ? Convert.ToInt32(address) : 0;
+
+                    zcu.IPAddress = drvZCU["IPAddress"].ToString();
+
+                    string port = drvZCU["Port"].ToString();
+                    if (regexCheckNumber.IsMatch(port))
+                        zcu.Port = address != "" ? Convert.ToInt32(port) : 0;
+                    zcu.zoneCollection = new ZONECollection();
+                    StaticPool.zcus.Add(zcu);
+                }
+            }
+
+            return dtZCU;
+        }
+
+        //LED
+        private static void LoadLedData()
+        {
+            DataTable dtLED = StaticPool.mdb.FillData($@"select Id, Code, Description, CCUId, Address, UD , Color, IPAddress, Port, Number, LedType, ParentLedId, LaneIDs
+                                                                    CalculateType, LimitNumber, VehicleType, LoopCount, ZeroColor
+                                                         from tblLED order by Address");
+            StaticPool.leds.Clear();
+            if (dtLED != null && dtLED.Rows.Count > 0)
+            {
+                DataTable _dtLEDDetail = StaticPool.mdb.FillData("select Id, LEDId, ZONEId from tblLEDDetail");
+                for (int i = 0; i < dtLED.Rows.Count; i++)
+                {
+                    DataRowView drvLED = dtLED.DefaultView[i];
+
+                    if (drvLED["LedType"].ToString() == "0")
+                    {
+                        GetLedData(_dtLEDDetail, drvLED);
+                    }
+                    else
+                    {
+                        GetExtendLedData(drvLED);
+                    }
+                }
+            }
+        }
+        private static void GetExtendLedData(DataRowView drvLED)
+        {
+            ExtendLEDDetail led = new ExtendLEDDetail();
+            led.Id = int.Parse(drvLED["Id"].ToString());
+            led.Code = drvLED["Code"].ToString();
+            led.Description = drvLED["Description"].ToString();
+            led.CCUId = drvLED["CCUId"].ToString();
+            led.Address = int.Parse(drvLED["Address"].ToString());
+
+
+            led.LimitNumber = int.Parse(drvLED["LimitNumber"].ToString());
+
+            led.UD = Convert.ToByte(ByteUI.Asc(drvLED["UD"].ToString()));
+            led.Color = Convert.ToByte(ByteUI.Asc(drvLED["Color"].ToString()));
+
+            led.IPAddress = drvLED["IPAddress"].ToString();
+            led.Port = int.Parse(drvLED["Port"].ToString());
+
+            led.LaneIDs = drvLED["LaneIDs"].ToString();
+            led.LedType = int.Parse(drvLED["LedType"].ToString());
+            led.ParentLedID = int.Parse(drvLED["ParentLedID"].ToString());
+            led.CalculateType = int.Parse(drvLED["CalculateType"].ToString());
+
+            //led.CurrentVehicle = led.LimitNumber - int.Parse(drvLED["Number"].ToString());
+            if (led.CalculateType == 0 || led.CalculateType == 2 || led.CalculateType == 3)
+            {
+                led.LoopCount = int.Parse(drvLED["LoopCount"].ToString());
+                led.CurrentVehicle = led.LoopCount;
+            }
+
+            led.VehicleType = int.Parse(drvLED["VehicleType"].ToString());
+            led.ZeroColor = Convert.ToByte(ByteUI.Asc(drvLED["ZeroColor"].ToString()));
+
+            StaticPool.extendLEDs.Add(led);
+        }
+        private static void GetLedData(DataTable _dtLEDDetail, DataRowView drvLED)
+        {
+            LED led = new LED();
+            led.Id = int.Parse(drvLED["Id"].ToString());
+            led.Code = drvLED["Code"].ToString();
+            led.Description = drvLED["Description"].ToString();
+            led.CCUId = drvLED["CCUId"].ToString();
+            led.Address = int.Parse(drvLED["Address"].ToString());
+
+            var _rows = _dtLEDDetail.Select("LEDId = " + led.Id);
+            if (_rows != null && _rows.Length > 0)
+                led.ParkingSpaceMax = _rows.Length;
+            led.UD = Convert.ToByte(ByteUI.Asc(drvLED["UD"].ToString()));
+            led.Color = Convert.ToByte(ByteUI.Asc(drvLED["Color"].ToString()));
+
+            led.IPAddress = drvLED["IPAddress"].ToString();
+            led.Port = int.Parse(drvLED["Port"].ToString());
+            led.ZeroColor = Convert.ToByte(ByteUI.Asc(drvLED["ZeroColor"].ToString()));
+            StaticPool.leds.Add(led);
+        }
+        private static void LoadLedDetail()
+        {
+            DataTable dtLEDDetail = StaticPool.mdb.FillData("select * from tblLEDDetail");
+            StaticPool.ledDetails.Clear();
+            if (dtLEDDetail != null && dtLEDDetail.Rows.Count > 0)
+            {
+                GetLedDetailData(dtLEDDetail);
+            }
+        }
+        //LED DETAIL
+        private static void GetLedDetailData(DataTable dtLEDDetail)
+        {
+            for (int i = 0; i < dtLEDDetail.Rows.Count; i++)
+            {
+                DataRowView drvLEDDetail = dtLEDDetail.DefaultView[i];
+                LEDDetail ledDetail = new LEDDetail();
+                ledDetail.Id = int.Parse(drvLEDDetail["Id"].ToString());
+                ledDetail.LedId = int.Parse(drvLEDDetail["LEDId"].ToString());
+                ledDetail.ZONEId = int.Parse(drvLEDDetail["ZONEId"].ToString());
+                StaticPool.ledDetails.Add(ledDetail);
+            }
+        }
+        //Output LED
+        public static void LoadOutdoorLed()
+        {
+            StaticPool.outDoorLeds.Clear();
+            StaticPool.outDoorLeds = tblOutDoorLed.LoadOutDoorLed();
+            tblOutdoorLedDetail.LoadOutDoorLedDetailData(StaticPool.outDoorLeds);
+        }
+
+        //Floor
+        private void LoadFloor()
+        {
+            StaticPool.floors.Clear();
+            DataTable dtFloor = StaticPool.mdb.FillData($@"select Id, Name, Code, Description from tblFloor order by Name") ?? new DataTable();
+            StaticPool.floors.Clear();
+            if (dtFloor != null && dtFloor.Rows.Count > 0)
+            {
+                foreach (DataRow row in dtFloor.Rows)
+                {
+                    string id = row["ID"].ToString();
+                    string name = row["Name"].ToString();
+                    string code = row["Code"].ToString();
+                    string description = row["Description"].ToString();
+
+                    Floor floor = new Floor()
+                    {
+                        ID = id,
+                        Name = name,
+                        Code = code,
+                        Description = description
+                    };
+                    StaticPool.floors.Add(floor);
+                }
+            }
+        }
+
+        //Zone
+        private static void LoadZone()
+        {
+            DataTable dtZONE = StaticPool.mdb.FillData("select * from tblZONE" +
+                                " LEFT JOIN (select MapID, ZONEId from tblMapDetail) b ON dbo.tblZone.Id=b.ZoneId" +
+                                " LEFT JOIN (select tblZG.Id as ZoneGroupId, Description as ZoneGroupName from tblZG) c ON tblZone.ZGId=c.ZoneGroupId" +
+                                " order by ZCUId, Address");
+            StaticPool.zones.Clear();
+
+            if (dtZONE != null && dtZONE.Rows.Count > 0)
+            {
+                GetZoneData(dtZONE);
+            }
+        }
+        private static void GetZoneData(DataTable dtZONE)
+        {
+            //List<ZONE> _zones = new List<ZONE>();
+            for (int i = 0; i < dtZONE.Rows.Count; i++)
+            {
+                DataRowView drvZONE = dtZONE.DefaultView[i];
+                ZONE zone = new ZONE();
+                zone.Id = int.Parse(drvZONE["Id"].ToString());
+                zone.Code = drvZONE["Code"].ToString();
+                zone.Description = drvZONE["Description"].ToString();
+                zone.ZCUId = int.Parse(drvZONE["ZCUId"].ToString());
+                zone.ZGId = int.Parse(drvZONE["ZGId"].ToString());
+                zone.Address = int.Parse(drvZONE["Address"].ToString());
+                zone.Status = int.Parse(drvZONE["Status"].ToString());
+                //string _zonegroupname = "";
+                //ZG _zg = StaticPool.zgs.GetzgById(zone.ZGId);
+                //if (_zg != null)
+                //    _zonegroupname = _zg.Description;
+                zone.ZoneGroupName = drvZONE["ZoneGroupName"].ToString();
+                int _mapid = 0;
+                int.TryParse(drvZONE["MapId"].ToString(), out _mapid);
+                zone.MapId = _mapid;
+                StaticPool.zones.Add(zone);
+
+                ZCU _zcu = StaticPool.zcus.GetZCUById(zone.ZCUId);
+                if (_zcu != null)
+                    _zcu.zoneCollection.Add(zone);
+            }
+        }
+
+        //Loop
+        private static void LoadLoop()
+        {
+            DataTable dtloop = StaticPool.mdb.FillData("select * from Loop order by Id");
+            if (dtloop != null && dtloop.Rows.Count > 0)
+            {
+                GetLoopData(dtloop);
+            }
+        }
+        private static void GetLoopData(DataTable dtloop)
+        {
+            foreach (DataRow dr in dtloop.Rows)
+            {
+                LoopDetail loop = new LoopDetail();
+                loop.IP = dr["IPAddress"].ToString();
+                loop.Name = dr["Name"].ToString();
+                loop.Id = int.Parse(dr["Id"].ToString());
+                loop.ExtendLedIDs = dr["LedIDs"].ToString();
+                int port = 100;
+                int.TryParse(dr["Port"].ToString(), out port);
+                loop.Port = port;
+
+                int address = 1;
+                int.TryParse(dr["Address"].ToString(), out address);
+                loop.Address = address;
+                StaticPool.loops.Add(loop);
+            }
+        }
+        #endregion: End Private Function
+
+        #region: Public Function
+        #endregion: End Public Function
+
+
+    }
+}

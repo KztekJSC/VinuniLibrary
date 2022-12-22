@@ -1,0 +1,46 @@
+ERROR 2022-12-17 10:06:23,576  -  ExecuteCommand
+Incorrect syntax near 'where'.
+update tblQLSV set IsDelete = '0' where 
+ERROR 2022-12-17 10:06:27,477  -  ExecuteCommand
+Incorrect syntax near 'where'.
+update tblQLSV set IsDelete = '0' where 
+ERROR 2022-12-17 10:11:35,597  -  ExecuteCommand
+Incorrect syntax near 'where'.
+update tblQLSV set IsDelete = '0' where 
+ERROR 2022-12-17 10:11:41,251  -  ExecuteCommand
+Incorrect syntax near 'where'.
+update tblQLSV set IsDelete = '0' where 
+ERROR 2022-12-17 11:47:33,949  -  FillData
+Invalid column name 'IsDelete'.
+Invalid column name 'IsDelete'.
+select tblUser.FullName,UserName,Password,AccessPermission,IsLock,IsDelete,UserID from tblUser where IsDelete = 0
+ERROR 2022-12-17 11:47:53,861  -  ExecuteCommand
+Column name or number of supplied values does not match table definition.
+insert into tblUser values ('2c949b00-97f9-40b0-9226-c5b859c87196',N'11111','1111111','1111111111','User', '0','0')
+ERROR 2022-12-17 11:47:56,805  -  FillData
+Invalid column name 'IsDelete'.
+Invalid column name 'IsDelete'.
+select tblUser.FullName,UserName,Password,AccessPermission,IsLock,IsDelete,UserID from tblUser where IsDelete = 0
+ERROR 2022-12-17 11:47:59,955  -  FillData
+Invalid column name 'IsDelete'.
+Invalid column name 'IsDelete'.
+select tblUser.FullName,UserName,Password,AccessPermission,IsLock,IsDelete,UserID from tblUser where IsDelete = 0
+ERROR 2022-12-17 11:48:09,590  -  ExecuteCommand
+Column name or number of supplied values does not match table definition.
+insert into tblUser values ('62f727a6-b059-4e2d-8c61-20f46474f05d',N'121','123231','21312','Admin', '0','0')
+ERROR 2022-12-17 11:48:13,788  -  FillData
+Invalid column name 'IsDelete'.
+Invalid column name 'IsDelete'.
+select tblUser.FullName,UserName,Password,AccessPermission,IsLock,IsDelete,UserID from tblUser where IsDelete = 0
+ERROR 2022-12-17 11:49:15,056  -  FillData
+Invalid column name 'IsDelete'.
+Invalid column name 'IsDelete'.
+select tblUser.FullName,UserName,Password,AccessPermission,IsLock,IsDelete,UserID from tblUser where IsDelete = 0
+ERROR 2022-12-17 12:52:39,982  -  ExecuteCommand
+Invalid column name 'UserID'.
+Invalid column name 'UserID'.
+update tblQLSV set IsDelete = '0' where UserID = '69e57c9f-4524-467b-9242-cc43deb9d1e7' or UserID = '3ad1950c-1075-4e93-8138-855fc4869ef5'
+ERROR 2022-12-17 12:52:42,966  -  ExecuteCommand
+Invalid column name 'UserID'.
+Invalid column name 'UserID'.
+update tblQLSV set IsDelete = '0' where UserID = '69e57c9f-4524-467b-9242-cc43deb9d1e7' or UserID = '3ad1950c-1075-4e93-8138-855fc4869ef5'

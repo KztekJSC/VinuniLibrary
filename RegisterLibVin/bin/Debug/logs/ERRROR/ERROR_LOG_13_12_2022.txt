@@ -1,0 +1,262 @@
+ERROR 2022-12-13 08:10:47,318  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 08:46:46,745  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 08:47:31,857  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 08:48:05,625  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 08:48:27,115  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 08:50:10,349  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 08:53:18,533  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:00:21,129  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:00:52,190  -  ExecuteCommand
+Incorrect syntax near 'values'.
+insert into tblQLSV values
+ERROR 2022-12-13 09:01:06,430  -  ExecuteCommand
+Incorrect syntax near 'values'.
+insert into tblQLSV values
+ERROR 2022-12-13 09:01:07,857  -  ExecuteCommand
+Invalid object name 'tblWaitingControlCard'.
+DELETE tblWaitingControlCard
+ERROR 2022-12-13 09:07:34,319  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:09:37,337  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:10:56,869  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:12:12,975  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:13:44,925  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:15:34,443  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:19:27,556  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:20:28,562  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:21:45,838  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:23:11,971  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:24:27,975  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:24:39,999  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:25:05,685  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:25:49,208  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:26:10,325  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:26:54,889  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:27:16,780  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:28:14,141  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:28:39,150  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:29:28,292  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:30:31,477  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:32:36,767  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:33:34,056  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:33:43,522  -  FillData
+Invalid column name 'IsDelte'.
+select * from tblQLSV where IsDelte = 0
+ERROR 2022-12-13 09:34:52,370  -  ExecuteCommand
+Incorrect syntax near 'values'.
+insert into tblQLSV values
+ERROR 2022-12-13 09:34:54,362  -  ExecuteCommand
+Incorrect syntax near 'values'.
+insert into tblQLSV values
+ERROR 2022-12-13 09:34:55,187  -  ExecuteCommand
+Invalid object name 'tblWaitingControlCard'.
+DELETE tblWaitingControlCard
+ERROR 2022-12-13 09:37:39,889  -  ExecuteCommand
+Incorrect syntax near 'values'.
+insert into tblQLSV values
+ERROR 2022-12-13 09:37:41,843  -  ExecuteCommand
+Incorrect syntax near 'values'.
+insert into tblQLSV values
+ERROR 2022-12-13 09:37:42,341  -  ExecuteCommand
+Invalid object name 'tblWaitingControlCard'.
+DELETE tblWaitingControlCard
+ERROR 2022-12-13 09:57:27,308  -  ExecuteCommand
+Incorrect syntax near 'values'.
+insert into tblQLSV values
+ERROR 2022-12-13 09:57:36,812  -  ExecuteCommand
+Incorrect syntax near 'values'.
+insert into tblQLSV values
+ERROR 2022-12-13 09:57:37,674  -  ExecuteCommand
+Invalid object name 'tblWaitingControlCard'.
+DELETE tblWaitingControlCard
+ERROR 2022-12-13 10:58:20,625  -  ExecuteCommand
+Incorrect syntax near 'values'.
+insert into tblQLSV values
+ERROR 2022-12-13 10:58:32,074  -  ExecuteCommand
+Incorrect syntax near 'values'.
+insert into tblQLSV values
+ERROR 2022-12-13 10:58:32,583  -  ExecuteCommand
+Invalid object name 'tblWaitingControlCard'.
+DELETE tblWaitingControlCard
+ERROR 2022-12-13 12:43:04,908  -  ExecuteCommand
+Cannot open backup device 'F:\\Hello.bak'. Operating system error 5(Access is denied.).
+BACKUP DATABASE is terminating abnormally.
+BACKUP DATABASE VinUniver TO DISK = 'F:\\Hello.bak'
+ERROR 2022-12-13 12:44:10,590  -  ExecuteCommand
+Cannot open backup device 'F:\Work\VinUniver\Backup\Hello.bak'. Operating system error 5(Access is denied.).
+BACKUP DATABASE is terminating abnormally.
+BACKUP DATABASE VinUniver TO DISK = 'F:\Work\VinUniver\Backup\Hello.bak'
+ERROR 2022-12-13 12:53:07,593  -  ExecuteCommand
+Cannot open backup device 'F:\Work\VinUniver\Backup\BackupVinUni.bak'. Operating system error 5(Access is denied.).
+BACKUP DATABASE is terminating abnormally.
+BACKUP DATABASE VinUniver TO DISK = 'F:\Work\VinUniver\Backup\BackupVinUni.bak'
+ERROR 2022-12-13 13:44:02,809  -  OpenMDBConnectSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Futech.Tools.MDB.OpenMDBConnect()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2022-12-13 14:16:44,260  -  OpenMDBConnectSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Futech.Tools.MDB.OpenMDBConnect()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2022-12-13 14:36:32,851  -  OpenMDBConnectSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Futech.Tools.MDB.OpenMDBConnect()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+ERROR 2022-12-13 15:14:44,803  -  ExecuteCommand
+Incorrect syntax near 'Log'.
+insert into tblLog values('b1b06f6f-29f6-4841-a79b-80aeb68a8c1d','2022-12-13 15:14:44.588',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang 'Log File'',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:14:57,685  -  ExecuteCommand
+Incorrect syntax near 'Setting'.
+insert into tblLog values('2b45829b-eb02-47f1-a6ed-0bceb06b9bd7','2022-12-13 15:14:57.680',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang 'Setting'',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:17:21,858  -  ExecuteCommand
+Incorrect syntax near 'Setting'.
+insert into tblLog values('a90bbbfa-5b55-4b4b-95fe-517979b7bb81','2022-12-13 15:17:21.588',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang 'Setting'',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:17:38,257  -  ExecuteCommand
+Incorrect syntax near 'Setting'.
+insert into tblLog values('13a3210c-02ea-4cc9-a415-dcf92dea9ae0','2022-12-13 15:17:38.251',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang 'Setting'',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:17:45,230  -  ExecuteCommand
+Incorrect syntax near 'Log'.
+insert into tblLog values('85c35a48-6063-4697-973d-fac8d87ee3cc','2022-12-13 15:17:45.224',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang 'Log File'',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:17:57,242  -  ExecuteCommand
+Incorrect syntax near 'Setting'.
+insert into tblLog values('0fb3fe32-2a56-46fb-9ea2-0f4291d67e31','2022-12-13 15:17:57.237',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang 'Setting'',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:18:04,621  -  ExecuteCommand
+Incorrect syntax near 'Log'.
+insert into tblLog values('67017069-1ac1-48fd-97fe-1f2c1a30f9ac','2022-12-13 15:18:04.615',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang 'Log File'',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:21:42,738  -  ExecuteCommand
+String or binary data would be truncated.
+The statement has been terminated.
+insert into tblLog values('a543f8c0-213e-41cf-9783-2b63155d130f','2022-12-13 15:21:42.372',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang Account Management',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:22:39,839  -  ExecuteCommand
+String or binary data would be truncated.
+The statement has been terminated.
+insert into tblLog values('3b7b8fde-632f-4330-babe-612693f217de','2022-12-13 15:22:39.832',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang Account Management',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:22:58,367  -  ExecuteCommand
+String or binary data would be truncated.
+The statement has been terminated.
+insert into tblLog values('974df317-d7fd-40e4-8986-cf702c2e4613','2022-12-13 15:22:58.361',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang Account Management',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:26:43,365  -  ExecuteCommand
+String or binary data would be truncated.
+The statement has been terminated.
+insert into tblLog values('79a0a3d6-805d-4ce3-809e-f9f063c23583','2022-12-13 15:26:43.154',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang Account Manage',N'',N'PC-KIEN')
+ERROR 2022-12-13 15:27:20,589  -  ExecuteCommand
+String or binary data would be truncated.
+The statement has been terminated.
+insert into tblLog values('69125c97-7256-49d6-9692-9fbf836041e8','2022-12-13 15:27:20.368',N'SuperAdmin',N'Ngu?i dùng truy c?p thành công trang Registered List',N'',N'PC-KIEN')
+ERROR 2022-12-13 17:45:38,515  -  OpenMDBConnectSystem.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Futech.Tools.MDB.OpenMDBConnect()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20

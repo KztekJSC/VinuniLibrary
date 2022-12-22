@@ -1,0 +1,6 @@
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x64\Debug\TestReader_VinUni.csproj.AssemblyReference.cache
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x64\Debug\TestReader_VinUni.Form1.resources
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x64\Debug\TestReader_VinUni.Form2.resources
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x64\Debug\TestReader_VinUni.Properties.Resources.resources
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x64\Debug\TestReader_VinUni.csproj.GenerateResource.cache
+F:\Work\VinUniver\Project TestReader_VinUni - Ver1\TestReader_VinUni\obj\x64\Debug\TestReader_VinUni.csproj.CoreCompileInputs.cache

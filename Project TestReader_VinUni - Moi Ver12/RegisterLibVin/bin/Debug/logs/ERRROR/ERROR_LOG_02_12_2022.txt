@@ -1,0 +1,4 @@
+ERROR 2022-12-02 08:54:59,421  -  ExecuteCommand
+String or binary data would be truncated.
+The statement has been terminated.
+insert into tblQLSV values(N'1',N'API',N'Ex Libris',N'exl_api',N'',N'DataGridViewTextBoxCell { ColumnIndex=7, RowIndex=0 }',N'DataGridViewTextBoxCell { ColumnIndex=8, RowIndex=0 }',N'DataGridViewTextBoxCell { ColumnIndex=9, RowIndex=0 }','0','0', '33845257-c2af-4ee7-bcd2-cc383e521a89')
