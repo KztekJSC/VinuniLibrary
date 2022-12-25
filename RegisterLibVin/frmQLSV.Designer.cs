@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQLSV));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label3 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -41,18 +41,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.picDataRedTrung = new System.Windows.Forms.PictureBox();
             this.picDataRed = new System.Windows.Forms.PictureBox();
-            this.txbIsDelete = new CustomControls.RJControls.RJTextBox();
-            this.txbNote = new CustomControls.RJControls.RJTextBox();
-            this.txbCardID = new CustomControls.RJControls.RJTextBox();
-            this.btnSua = new CustomControls.RJControls.RJButton();
-            this.btnListDelete = new CustomControls.RJControls.RJButton();
-            this.txbStudentID = new CustomControls.RJControls.RJTextBox();
-            this.txbPhone = new CustomControls.RJControls.RJTextBox();
-            this.txbEmail = new CustomControls.RJControls.RJTextBox();
-            this.btnThem = new CustomControls.RJControls.RJButton();
-            this.txbMSV = new CustomControls.RJControls.RJTextBox();
-            this.txbTen = new CustomControls.RJControls.RJTextBox();
-            this.txbHoDem = new CustomControls.RJControls.RJTextBox();
             this.ckbSelectAll = new System.Windows.Forms.CheckBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -69,16 +57,28 @@
             this.StudentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IsRed = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.cbbTypeLook = new RegisterLibVin.UC_Combobox.RJComboBox();
+            this.lblCount = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.ckbDuplicate = new System.Windows.Forms.CheckBox();
+            this.cbbTypeLook = new RegisterLibVin.UC_Combobox.RJComboBox();
             this.txbTimKiem = new CustomControls.RJControls.RJTextBox();
             this.btnExport = new CustomControls.RJControls.RJButton();
             this.btnImport = new CustomControls.RJControls.RJButton();
             this.btnTimKiem = new CustomControls.RJControls.RJButton();
             this.btnDeleteRemove = new CustomControls.RJControls.RJButton();
-            this.lblCount = new System.Windows.Forms.Label();
+            this.txbIsDelete = new CustomControls.RJControls.RJTextBox();
+            this.txbNote = new CustomControls.RJControls.RJTextBox();
+            this.txbCardID = new CustomControls.RJControls.RJTextBox();
+            this.btnSua = new CustomControls.RJControls.RJButton();
+            this.btnListDelete = new CustomControls.RJControls.RJButton();
+            this.txbStudentID = new CustomControls.RJControls.RJTextBox();
+            this.txbPhone = new CustomControls.RJControls.RJTextBox();
+            this.txbEmail = new CustomControls.RJControls.RJTextBox();
+            this.btnThem = new CustomControls.RJControls.RJButton();
+            this.txbMSV = new CustomControls.RJControls.RJTextBox();
+            this.txbTen = new CustomControls.RJControls.RJTextBox();
+            this.txbHoDem = new CustomControls.RJControls.RJTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDataRedTrung)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDataRed)).BeginInit();
@@ -220,6 +220,398 @@
             this.picDataRed.TabStop = false;
             this.picDataRed.Visible = false;
             this.picDataRed.Click += new System.EventHandler(this.picDataRed_Click);
+            // 
+            // ckbSelectAll
+            // 
+            this.ckbSelectAll.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.ckbSelectAll.Appearance = System.Windows.Forms.Appearance.Button;
+            this.ckbSelectAll.AutoSize = true;
+            this.ckbSelectAll.FlatAppearance.BorderSize = 0;
+            this.ckbSelectAll.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.ckbSelectAll.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.ckbSelectAll.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.ckbSelectAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ckbSelectAll.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbSelectAll.Image = global::RegisterLibVin.Properties.Resources._unchecked;
+            this.ckbSelectAll.Location = new System.Drawing.Point(859, 23);
+            this.ckbSelectAll.Name = "ckbSelectAll";
+            this.ckbSelectAll.Size = new System.Drawing.Size(87, 30);
+            this.ckbSelectAll.TabIndex = 164;
+            this.ckbSelectAll.Text = "Select All";
+            this.ckbSelectAll.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ckbSelectAll.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ckbSelectAll.UseVisualStyleBackColor = true;
+            this.ckbSelectAll.CheckedChanged += new System.EventHandler(this.ckbSelectAll_CheckedChanged);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Controls.Add(this.panel2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 217);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1102, 471);
+            this.panel3.TabIndex = 153;
+            // 
+            // panel4
+            // 
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel4.Controls.Add(this.dgvQLSV);
+            this.panel4.Location = new System.Drawing.Point(12, 90);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1078, 369);
+            this.panel4.TabIndex = 160;
+            // 
+            // dgvQLSV
+            // 
+            this.dgvQLSV.AllowUserToAddRows = false;
+            this.dgvQLSV.AllowUserToDeleteRows = false;
+            this.dgvQLSV.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dgvQLSV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvQLSV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvQLSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvQLSV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.STT,
+            this.Surname,
+            this.FirstName,
+            this.Email,
+            this.StudentCode,
+            this.PhoneNumber,
+            this.CardID,
+            this.Note,
+            this.IsDelete,
+            this.StudentID,
+            this.IsRed});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvQLSV.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvQLSV.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvQLSV.Location = new System.Drawing.Point(0, 0);
+            this.dgvQLSV.Name = "dgvQLSV";
+            this.dgvQLSV.ReadOnly = true;
+            this.dgvQLSV.RowHeadersVisible = false;
+            this.dgvQLSV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvQLSV.Size = new System.Drawing.Size(1078, 369);
+            this.dgvQLSV.TabIndex = 160;
+            this.dgvQLSV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQLSV_CellContentClick);
+            this.dgvQLSV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQLSV_CellContentClick_1);
+            this.dgvQLSV.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dgvQLSV_DataBindingComplete);
+            // 
+            // STT
+            // 
+            this.STT.DataPropertyName = "STT";
+            this.STT.HeaderText = "STT";
+            this.STT.Name = "STT";
+            this.STT.ReadOnly = true;
+            this.STT.Width = 50;
+            // 
+            // Surname
+            // 
+            this.Surname.DataPropertyName = "Surname";
+            this.Surname.HeaderText = "Last Name";
+            this.Surname.Name = "Surname";
+            this.Surname.ReadOnly = true;
+            // 
+            // FirstName
+            // 
+            this.FirstName.DataPropertyName = "Name";
+            this.FirstName.HeaderText = "First Name";
+            this.FirstName.Name = "FirstName";
+            this.FirstName.ReadOnly = true;
+            // 
+            // Email
+            // 
+            this.Email.DataPropertyName = "Email";
+            this.Email.HeaderText = "Email";
+            this.Email.Name = "Email";
+            this.Email.ReadOnly = true;
+            this.Email.Width = 200;
+            // 
+            // StudentCode
+            // 
+            this.StudentCode.DataPropertyName = "StudentCode";
+            this.StudentCode.HeaderText = "Identifier Value";
+            this.StudentCode.Name = "StudentCode";
+            this.StudentCode.ReadOnly = true;
+            // 
+            // PhoneNumber
+            // 
+            this.PhoneNumber.DataPropertyName = "PhoneNumber";
+            this.PhoneNumber.HeaderText = "Phone Number";
+            this.PhoneNumber.Name = "PhoneNumber";
+            this.PhoneNumber.ReadOnly = true;
+            // 
+            // CardID
+            // 
+            this.CardID.DataPropertyName = "CardID";
+            this.CardID.HeaderText = "User Id";
+            this.CardID.Name = "CardID";
+            this.CardID.ReadOnly = true;
+            // 
+            // Note
+            // 
+            this.Note.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Note.DataPropertyName = "Note";
+            this.Note.HeaderText = "Note";
+            this.Note.Name = "Note";
+            this.Note.ReadOnly = true;
+            // 
+            // IsDelete
+            // 
+            this.IsDelete.DataPropertyName = "IsDelete";
+            this.IsDelete.HeaderText = "Deleted";
+            this.IsDelete.Name = "IsDelete";
+            this.IsDelete.ReadOnly = true;
+            this.IsDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.IsDelete.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // StudentID
+            // 
+            this.StudentID.DataPropertyName = "StudentID";
+            this.StudentID.HeaderText = "StudentID";
+            this.StudentID.Name = "StudentID";
+            this.StudentID.ReadOnly = true;
+            this.StudentID.Visible = false;
+            // 
+            // IsRed
+            // 
+            this.IsRed.DataPropertyName = "IsRed";
+            this.IsRed.HeaderText = "IsRed";
+            this.IsRed.Name = "IsRed";
+            this.IsRed.ReadOnly = true;
+            this.IsRed.Visible = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.lblCount);
+            this.panel2.Controls.Add(this.cbbTypeLook);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.ckbSelectAll);
+            this.panel2.Controls.Add(this.ckbDuplicate);
+            this.panel2.Controls.Add(this.txbTimKiem);
+            this.panel2.Controls.Add(this.btnExport);
+            this.panel2.Controls.Add(this.btnImport);
+            this.panel2.Controls.Add(this.btnTimKiem);
+            this.panel2.Controls.Add(this.btnDeleteRemove);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1102, 84);
+            this.panel2.TabIndex = 159;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // lblCount
+            // 
+            this.lblCount.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblCount.AutoSize = true;
+            this.lblCount.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCount.ForeColor = System.Drawing.Color.Gray;
+            this.lblCount.Location = new System.Drawing.Point(494, 25);
+            this.lblCount.Name = "lblCount";
+            this.lblCount.Size = new System.Drawing.Size(42, 17);
+            this.lblCount.TabIndex = 167;
+            this.lblCount.Text = "Count";
+            this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblCount.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(282, 23);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 17);
+            this.label2.TabIndex = 165;
+            this.label2.Text = "Search by :";
+            // 
+            // label5
+            // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(494, 24);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 17);
+            this.label5.TabIndex = 163;
+            // 
+            // ckbDuplicate
+            // 
+            this.ckbDuplicate.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.ckbDuplicate.Appearance = System.Windows.Forms.Appearance.Button;
+            this.ckbDuplicate.AutoSize = true;
+            this.ckbDuplicate.FlatAppearance.BorderSize = 0;
+            this.ckbDuplicate.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.ckbDuplicate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.ckbDuplicate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.ckbDuplicate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ckbDuplicate.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbDuplicate.Image = global::RegisterLibVin.Properties.Resources._unchecked;
+            this.ckbDuplicate.Location = new System.Drawing.Point(859, 49);
+            this.ckbDuplicate.Name = "ckbDuplicate";
+            this.ckbDuplicate.Size = new System.Drawing.Size(124, 30);
+            this.ckbDuplicate.TabIndex = 164;
+            this.ckbDuplicate.Text = "Filter Duplicates";
+            this.ckbDuplicate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ckbDuplicate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ckbDuplicate.UseVisualStyleBackColor = true;
+            this.ckbDuplicate.CheckedChanged += new System.EventHandler(this.ckbDuplicate_CheckedChanged);
+            // 
+            // cbbTypeLook
+            // 
+            this.cbbTypeLook.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.cbbTypeLook.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.cbbTypeLook.BorderColor = System.Drawing.Color.DarkOliveGreen;
+            this.cbbTypeLook.BorderSize = 1;
+            this.cbbTypeLook.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
+            this.cbbTypeLook.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.cbbTypeLook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.cbbTypeLook.IconColor = System.Drawing.Color.DarkSlateGray;
+            this.cbbTypeLook.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(116)))), ((int)(((byte)(197)))));
+            this.cbbTypeLook.ListTextColor = System.Drawing.Color.White;
+            this.cbbTypeLook.Location = new System.Drawing.Point(283, 42);
+            this.cbbTypeLook.MinimumSize = new System.Drawing.Size(200, 30);
+            this.cbbTypeLook.Name = "cbbTypeLook";
+            this.cbbTypeLook.Padding = new System.Windows.Forms.Padding(1);
+            this.cbbTypeLook.Size = new System.Drawing.Size(200, 30);
+            this.cbbTypeLook.TabIndex = 166;
+            this.cbbTypeLook.Texts = "";
+            // 
+            // txbTimKiem
+            // 
+            this.txbTimKiem.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.txbTimKiem.BackColor = System.Drawing.SystemColors.Window;
+            this.txbTimKiem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.txbTimKiem.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.txbTimKiem.BorderRadius = 5;
+            this.txbTimKiem.BorderSize = 2;
+            this.txbTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbTimKiem.ForeColor = System.Drawing.Color.Gray;
+            this.txbTimKiem.Location = new System.Drawing.Point(490, 42);
+            this.txbTimKiem.Margin = new System.Windows.Forms.Padding(4);
+            this.txbTimKiem.Multiline = false;
+            this.txbTimKiem.Name = "txbTimKiem";
+            this.txbTimKiem.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.txbTimKiem.PasswordChar = false;
+            this.txbTimKiem.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.txbTimKiem.PlaceholderText = "";
+            this.txbTimKiem.Size = new System.Drawing.Size(209, 31);
+            this.txbTimKiem.TabIndex = 159;
+            this.txbTimKiem.Texts = "";
+            this.txbTimKiem.UnderlinedStyle = false;
+            this.txbTimKiem._TextChanged += new System.EventHandler(this.txbTimKiem__TextChanged);
+            this.txbTimKiem.Enter += new System.EventHandler(this.txbTimKiem_Enter);
+            this.txbTimKiem.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbTimKiem_KeyDown);
+            // 
+            // btnExport
+            // 
+            this.btnExport.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btnExport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnExport.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnExport.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnExport.BorderRadius = 10;
+            this.btnExport.BorderSize = 2;
+            this.btnExport.FlatAppearance.BorderSize = 0;
+            this.btnExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExport.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExport.ForeColor = System.Drawing.Color.Black;
+            this.btnExport.Image = ((System.Drawing.Image)(resources.GetObject("btnExport.Image")));
+            this.btnExport.Location = new System.Drawing.Point(149, 24);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(122, 50);
+            this.btnExport.TabIndex = 160;
+            this.btnExport.Text = "ExportExcel";
+            this.btnExport.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnExport.TextColor = System.Drawing.Color.Black;
+            this.btnExport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnExport.UseVisualStyleBackColor = false;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            // 
+            // btnImport
+            // 
+            this.btnImport.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btnImport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnImport.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnImport.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnImport.BorderRadius = 10;
+            this.btnImport.BorderSize = 2;
+            this.btnImport.FlatAppearance.BorderSize = 0;
+            this.btnImport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImport.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImport.ForeColor = System.Drawing.Color.Black;
+            this.btnImport.Image = ((System.Drawing.Image)(resources.GetObject("btnImport.Image")));
+            this.btnImport.Location = new System.Drawing.Point(12, 24);
+            this.btnImport.Margin = new System.Windows.Forms.Padding(5);
+            this.btnImport.Name = "btnImport";
+            this.btnImport.Size = new System.Drawing.Size(129, 50);
+            this.btnImport.TabIndex = 161;
+            this.btnImport.Text = "ImportExcel";
+            this.btnImport.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnImport.TextColor = System.Drawing.Color.Black;
+            this.btnImport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnImport.UseVisualStyleBackColor = false;
+            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
+            // 
+            // btnTimKiem
+            // 
+            this.btnTimKiem.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnTimKiem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnTimKiem.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnTimKiem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnTimKiem.BorderRadius = 10;
+            this.btnTimKiem.BorderSize = 2;
+            this.btnTimKiem.FlatAppearance.BorderSize = 0;
+            this.btnTimKiem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiem.ForeColor = System.Drawing.Color.Black;
+            this.btnTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("btnTimKiem.Image")));
+            this.btnTimKiem.Location = new System.Drawing.Point(713, 24);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.Size = new System.Drawing.Size(106, 50);
+            this.btnTimKiem.TabIndex = 158;
+            this.btnTimKiem.Text = "  Search";
+            this.btnTimKiem.TextColor = System.Drawing.Color.Black;
+            this.btnTimKiem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
+            // 
+            // btnDeleteRemove
+            // 
+            this.btnDeleteRemove.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnDeleteRemove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnDeleteRemove.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnDeleteRemove.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnDeleteRemove.BorderRadius = 10;
+            this.btnDeleteRemove.BorderSize = 2;
+            this.btnDeleteRemove.FlatAppearance.BorderSize = 0;
+            this.btnDeleteRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteRemove.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteRemove.ForeColor = System.Drawing.Color.Black;
+            this.btnDeleteRemove.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteRemove.Image")));
+            this.btnDeleteRemove.Location = new System.Drawing.Point(984, 24);
+            this.btnDeleteRemove.Name = "btnDeleteRemove";
+            this.btnDeleteRemove.Size = new System.Drawing.Size(106, 50);
+            this.btnDeleteRemove.TabIndex = 158;
+            this.btnDeleteRemove.Text = "   Delete";
+            this.btnDeleteRemove.TextColor = System.Drawing.Color.Black;
+            this.btnDeleteRemove.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDeleteRemove.UseVisualStyleBackColor = false;
+            this.btnDeleteRemove.Click += new System.EventHandler(this.btnDeleteRemove_Click);
             // 
             // txbIsDelete
             // 
@@ -503,407 +895,20 @@
             this.txbHoDem.Texts = "";
             this.txbHoDem.UnderlinedStyle = false;
             // 
-            // ckbSelectAll
-            // 
-            this.ckbSelectAll.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.ckbSelectAll.Appearance = System.Windows.Forms.Appearance.Button;
-            this.ckbSelectAll.AutoSize = true;
-            this.ckbSelectAll.FlatAppearance.BorderSize = 0;
-            this.ckbSelectAll.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.ckbSelectAll.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.ckbSelectAll.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.ckbSelectAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ckbSelectAll.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckbSelectAll.Image = global::RegisterLibVin.Properties.Resources._unchecked;
-            this.ckbSelectAll.Location = new System.Drawing.Point(859, 23);
-            this.ckbSelectAll.Name = "ckbSelectAll";
-            this.ckbSelectAll.Size = new System.Drawing.Size(87, 30);
-            this.ckbSelectAll.TabIndex = 164;
-            this.ckbSelectAll.Text = "Select All";
-            this.ckbSelectAll.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ckbSelectAll.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.ckbSelectAll.UseVisualStyleBackColor = true;
-            this.ckbSelectAll.CheckedChanged += new System.EventHandler(this.ckbSelectAll_CheckedChanged);
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Controls.Add(this.panel2);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 217);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1102, 471);
-            this.panel3.TabIndex = 153;
-            // 
-            // panel4
-            // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel4.Controls.Add(this.dgvQLSV);
-            this.panel4.Location = new System.Drawing.Point(12, 90);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1078, 369);
-            this.panel4.TabIndex = 160;
-            // 
-            // dgvQLSV
-            // 
-            this.dgvQLSV.AllowUserToAddRows = false;
-            this.dgvQLSV.AllowUserToDeleteRows = false;
-            this.dgvQLSV.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.dgvQLSV.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvQLSV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            this.dgvQLSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvQLSV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.STT,
-            this.Surname,
-            this.FirstName,
-            this.Email,
-            this.StudentCode,
-            this.PhoneNumber,
-            this.CardID,
-            this.Note,
-            this.IsDelete,
-            this.StudentID,
-            this.IsRed});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvQLSV.DefaultCellStyle = dataGridViewCellStyle12;
-            this.dgvQLSV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvQLSV.Location = new System.Drawing.Point(0, 0);
-            this.dgvQLSV.Name = "dgvQLSV";
-            this.dgvQLSV.ReadOnly = true;
-            this.dgvQLSV.RowHeadersVisible = false;
-            this.dgvQLSV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvQLSV.Size = new System.Drawing.Size(1078, 369);
-            this.dgvQLSV.TabIndex = 160;
-            this.dgvQLSV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQLSV_CellContentClick);
-            this.dgvQLSV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQLSV_CellContentClick_1);
-            this.dgvQLSV.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dgvQLSV_DataBindingComplete);
-            // 
-            // STT
-            // 
-            this.STT.DataPropertyName = "STT";
-            this.STT.HeaderText = "STT";
-            this.STT.Name = "STT";
-            this.STT.ReadOnly = true;
-            this.STT.Width = 50;
-            // 
-            // Surname
-            // 
-            this.Surname.DataPropertyName = "Surname";
-            this.Surname.HeaderText = "Last Name";
-            this.Surname.Name = "Surname";
-            this.Surname.ReadOnly = true;
-            // 
-            // FirstName
-            // 
-            this.FirstName.DataPropertyName = "Name";
-            this.FirstName.HeaderText = "First Name";
-            this.FirstName.Name = "FirstName";
-            this.FirstName.ReadOnly = true;
-            // 
-            // Email
-            // 
-            this.Email.DataPropertyName = "Email";
-            this.Email.HeaderText = "Email";
-            this.Email.Name = "Email";
-            this.Email.ReadOnly = true;
-            this.Email.Width = 200;
-            // 
-            // StudentCode
-            // 
-            this.StudentCode.DataPropertyName = "StudentCode";
-            this.StudentCode.HeaderText = "Identifier Value";
-            this.StudentCode.Name = "StudentCode";
-            this.StudentCode.ReadOnly = true;
-            // 
-            // PhoneNumber
-            // 
-            this.PhoneNumber.DataPropertyName = "PhoneNumber";
-            this.PhoneNumber.HeaderText = "Phone Number";
-            this.PhoneNumber.Name = "PhoneNumber";
-            this.PhoneNumber.ReadOnly = true;
-            // 
-            // CardID
-            // 
-            this.CardID.DataPropertyName = "CardID";
-            this.CardID.HeaderText = "User Id";
-            this.CardID.Name = "CardID";
-            this.CardID.ReadOnly = true;
-            // 
-            // Note
-            // 
-            this.Note.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Note.DataPropertyName = "Note";
-            this.Note.HeaderText = "Note";
-            this.Note.Name = "Note";
-            this.Note.ReadOnly = true;
-            // 
-            // IsDelete
-            // 
-            this.IsDelete.DataPropertyName = "IsDelete";
-            this.IsDelete.HeaderText = "Deleted";
-            this.IsDelete.Name = "IsDelete";
-            this.IsDelete.ReadOnly = true;
-            this.IsDelete.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.IsDelete.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // StudentID
-            // 
-            this.StudentID.DataPropertyName = "StudentID";
-            this.StudentID.HeaderText = "StudentID";
-            this.StudentID.Name = "StudentID";
-            this.StudentID.ReadOnly = true;
-            this.StudentID.Visible = false;
-            // 
-            // IsRed
-            // 
-            this.IsRed.DataPropertyName = "IsRed";
-            this.IsRed.HeaderText = "IsRed";
-            this.IsRed.Name = "IsRed";
-            this.IsRed.ReadOnly = true;
-            this.IsRed.Visible = false;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.lblCount);
-            this.panel2.Controls.Add(this.cbbTypeLook);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.ckbSelectAll);
-            this.panel2.Controls.Add(this.ckbDuplicate);
-            this.panel2.Controls.Add(this.txbTimKiem);
-            this.panel2.Controls.Add(this.btnExport);
-            this.panel2.Controls.Add(this.btnImport);
-            this.panel2.Controls.Add(this.btnTimKiem);
-            this.panel2.Controls.Add(this.btnDeleteRemove);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1102, 84);
-            this.panel2.TabIndex = 159;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // cbbTypeLook
-            // 
-            this.cbbTypeLook.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.cbbTypeLook.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.cbbTypeLook.BorderColor = System.Drawing.Color.DarkOliveGreen;
-            this.cbbTypeLook.BorderSize = 1;
-            this.cbbTypeLook.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.cbbTypeLook.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.cbbTypeLook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.cbbTypeLook.IconColor = System.Drawing.Color.DarkSlateGray;
-            this.cbbTypeLook.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(116)))), ((int)(((byte)(197)))));
-            this.cbbTypeLook.ListTextColor = System.Drawing.Color.White;
-            this.cbbTypeLook.Location = new System.Drawing.Point(283, 42);
-            this.cbbTypeLook.MinimumSize = new System.Drawing.Size(200, 30);
-            this.cbbTypeLook.Name = "cbbTypeLook";
-            this.cbbTypeLook.Padding = new System.Windows.Forms.Padding(1);
-            this.cbbTypeLook.Size = new System.Drawing.Size(200, 30);
-            this.cbbTypeLook.TabIndex = 166;
-            this.cbbTypeLook.Texts = "";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(282, 23);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 17);
-            this.label2.TabIndex = 165;
-            this.label2.Text = "Search by :";
-            // 
-            // label5
-            // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(494, 24);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 17);
-            this.label5.TabIndex = 163;
-            // 
-            // ckbDuplicate
-            // 
-            this.ckbDuplicate.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.ckbDuplicate.Appearance = System.Windows.Forms.Appearance.Button;
-            this.ckbDuplicate.AutoSize = true;
-            this.ckbDuplicate.FlatAppearance.BorderSize = 0;
-            this.ckbDuplicate.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.ckbDuplicate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.ckbDuplicate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.ckbDuplicate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ckbDuplicate.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckbDuplicate.Image = global::RegisterLibVin.Properties.Resources._unchecked;
-            this.ckbDuplicate.Location = new System.Drawing.Point(859, 49);
-            this.ckbDuplicate.Name = "ckbDuplicate";
-            this.ckbDuplicate.Size = new System.Drawing.Size(124, 30);
-            this.ckbDuplicate.TabIndex = 164;
-            this.ckbDuplicate.Text = "Filter Duplicates";
-            this.ckbDuplicate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ckbDuplicate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.ckbDuplicate.UseVisualStyleBackColor = true;
-            this.ckbDuplicate.CheckedChanged += new System.EventHandler(this.ckbDuplicate_CheckedChanged);
-            // 
-            // txbTimKiem
-            // 
-            this.txbTimKiem.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.txbTimKiem.BackColor = System.Drawing.SystemColors.Window;
-            this.txbTimKiem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.txbTimKiem.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.txbTimKiem.BorderRadius = 5;
-            this.txbTimKiem.BorderSize = 2;
-            this.txbTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbTimKiem.ForeColor = System.Drawing.Color.Gray;
-            this.txbTimKiem.Location = new System.Drawing.Point(490, 42);
-            this.txbTimKiem.Margin = new System.Windows.Forms.Padding(4);
-            this.txbTimKiem.Multiline = false;
-            this.txbTimKiem.Name = "txbTimKiem";
-            this.txbTimKiem.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.txbTimKiem.PasswordChar = false;
-            this.txbTimKiem.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txbTimKiem.PlaceholderText = "";
-            this.txbTimKiem.Size = new System.Drawing.Size(209, 31);
-            this.txbTimKiem.TabIndex = 159;
-            this.txbTimKiem.Texts = "";
-            this.txbTimKiem.UnderlinedStyle = false;
-            this.txbTimKiem._TextChanged += new System.EventHandler(this.txbTimKiem__TextChanged);
-            this.txbTimKiem.Enter += new System.EventHandler(this.txbTimKiem_Enter);
-            // 
-            // btnExport
-            // 
-            this.btnExport.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btnExport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnExport.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnExport.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnExport.BorderRadius = 10;
-            this.btnExport.BorderSize = 2;
-            this.btnExport.FlatAppearance.BorderSize = 0;
-            this.btnExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExport.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExport.ForeColor = System.Drawing.Color.Black;
-            this.btnExport.Image = ((System.Drawing.Image)(resources.GetObject("btnExport.Image")));
-            this.btnExport.Location = new System.Drawing.Point(149, 24);
-            this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(122, 50);
-            this.btnExport.TabIndex = 160;
-            this.btnExport.Text = "ExportExcel";
-            this.btnExport.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnExport.TextColor = System.Drawing.Color.Black;
-            this.btnExport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnExport.UseVisualStyleBackColor = false;
-            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
-            // 
-            // btnImport
-            // 
-            this.btnImport.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btnImport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnImport.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnImport.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnImport.BorderRadius = 10;
-            this.btnImport.BorderSize = 2;
-            this.btnImport.FlatAppearance.BorderSize = 0;
-            this.btnImport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImport.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImport.ForeColor = System.Drawing.Color.Black;
-            this.btnImport.Image = ((System.Drawing.Image)(resources.GetObject("btnImport.Image")));
-            this.btnImport.Location = new System.Drawing.Point(12, 24);
-            this.btnImport.Margin = new System.Windows.Forms.Padding(5);
-            this.btnImport.Name = "btnImport";
-            this.btnImport.Size = new System.Drawing.Size(129, 50);
-            this.btnImport.TabIndex = 161;
-            this.btnImport.Text = "ImportExcel";
-            this.btnImport.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnImport.TextColor = System.Drawing.Color.Black;
-            this.btnImport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnImport.UseVisualStyleBackColor = false;
-            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
-            // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnTimKiem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnTimKiem.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnTimKiem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnTimKiem.BorderRadius = 10;
-            this.btnTimKiem.BorderSize = 2;
-            this.btnTimKiem.FlatAppearance.BorderSize = 0;
-            this.btnTimKiem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimKiem.ForeColor = System.Drawing.Color.Black;
-            this.btnTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("btnTimKiem.Image")));
-            this.btnTimKiem.Location = new System.Drawing.Point(713, 24);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(106, 50);
-            this.btnTimKiem.TabIndex = 158;
-            this.btnTimKiem.Text = "  Search";
-            this.btnTimKiem.TextColor = System.Drawing.Color.Black;
-            this.btnTimKiem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnTimKiem.UseVisualStyleBackColor = false;
-            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
-            // 
-            // btnDeleteRemove
-            // 
-            this.btnDeleteRemove.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnDeleteRemove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnDeleteRemove.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnDeleteRemove.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnDeleteRemove.BorderRadius = 10;
-            this.btnDeleteRemove.BorderSize = 2;
-            this.btnDeleteRemove.FlatAppearance.BorderSize = 0;
-            this.btnDeleteRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteRemove.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteRemove.ForeColor = System.Drawing.Color.Black;
-            this.btnDeleteRemove.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteRemove.Image")));
-            this.btnDeleteRemove.Location = new System.Drawing.Point(984, 24);
-            this.btnDeleteRemove.Name = "btnDeleteRemove";
-            this.btnDeleteRemove.Size = new System.Drawing.Size(106, 50);
-            this.btnDeleteRemove.TabIndex = 158;
-            this.btnDeleteRemove.Text = "   Delete";
-            this.btnDeleteRemove.TextColor = System.Drawing.Color.Black;
-            this.btnDeleteRemove.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDeleteRemove.UseVisualStyleBackColor = false;
-            this.btnDeleteRemove.Click += new System.EventHandler(this.btnDeleteRemove_Click);
-            // 
-            // lblCount
-            // 
-            this.lblCount.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblCount.AutoSize = true;
-            this.lblCount.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCount.ForeColor = System.Drawing.Color.Gray;
-            this.lblCount.Location = new System.Drawing.Point(494, 25);
-            this.lblCount.Name = "lblCount";
-            this.lblCount.Size = new System.Drawing.Size(42, 17);
-            this.lblCount.TabIndex = 167;
-            this.lblCount.Text = "Count";
-            this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblCount.Visible = false;
-            // 
             // frmQLSV
             // 
+            this.AcceptButton = this.btnTimKiem;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1102, 688);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
+            this.KeyPreview = true;
             this.Name = "frmQLSV";
             this.Text = "frmQLSV1";
             this.Load += new System.EventHandler(this.frmQLSV_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmQLSV_KeyDown);
+            this.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.frmQLSV_PreviewKeyDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDataRedTrung)).EndInit();

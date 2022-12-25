@@ -1,0 +1,6 @@
+ERROR 2022-12-23 23:41:11,118  -  OpenMDBConnectSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Futech.Tools.MDB.OpenMDBConnect()
+ERROR 2022-12-23 23:41:11,134  -  ExecuteCommand: Database Connection lost! 
+ERROR 2022-12-23 23:49:35,308  -  OpenMDBConnectSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Futech.Tools.MDB.OpenMDBConnect()
+ERROR 2022-12-23 23:49:35,317  -  ExecuteCommand: Database Connection lost! 

@@ -124,3 +124,17 @@ F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver15\Project T
 F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver15\Project TestReader_VinUni - Moi Ver15\ConnectionConfig\obj\Debug\ConnectionConfig.csproj.CopyComplete
 F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver15\Project TestReader_VinUni - Moi Ver15\ConnectionConfig\obj\Debug\ConnectionConfig.exe
 F:\Project khác\ToolTestQuetThe\Project TestReader_VinUni - Moi Ver15\Project TestReader_VinUni - Moi Ver15\ConnectionConfig\obj\Debug\ConnectionConfig.pdb
+F:\Github\VinuniLibrary\ConnectionConfig\bin\Debug\ConnectionConfig.exe.config
+F:\Github\VinuniLibrary\ConnectionConfig\bin\Debug\ConnectionConfig.exe
+F:\Github\VinuniLibrary\ConnectionConfig\bin\Debug\ConnectionConfig.pdb
+F:\Github\VinuniLibrary\ConnectionConfig\bin\Debug\Futech.Tools.dll
+F:\Github\VinuniLibrary\ConnectionConfig\bin\Debug\log4net.dll
+F:\Github\VinuniLibrary\ConnectionConfig\obj\Debug\ConnectionConfig.csproj.AssemblyReference.cache
+F:\Github\VinuniLibrary\ConnectionConfig\obj\Debug\ConnectionConfig.csproj.SuggestedBindingRedirects.cache
+F:\Github\VinuniLibrary\ConnectionConfig\obj\Debug\ConnectionConfig.frmConfig.resources
+F:\Github\VinuniLibrary\ConnectionConfig\obj\Debug\ConnectionConfig.Properties.Resources.resources
+F:\Github\VinuniLibrary\ConnectionConfig\obj\Debug\ConnectionConfig.csproj.GenerateResource.cache
+F:\Github\VinuniLibrary\ConnectionConfig\obj\Debug\ConnectionConfig.csproj.CoreCompileInputs.cache
+F:\Github\VinuniLibrary\ConnectionConfig\obj\Debug\ConnectionConfig.csproj.CopyComplete
+F:\Github\VinuniLibrary\ConnectionConfig\obj\Debug\ConnectionConfig.exe
+F:\Github\VinuniLibrary\ConnectionConfig\obj\Debug\ConnectionConfig.pdb

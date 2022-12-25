@@ -1283,5 +1283,20 @@ namespace RegisterLibVin
                 txbTimKiem.ForeColor = Color.Black;
             }
         }
+
+        private void txbTimKiem_KeyDown(object sender, KeyEventArgs e)
+        {
+            
+        }
+
+        private void frmQLSV_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+            
+        }
+
+        private void frmQLSV_KeyDown(object sender, KeyEventArgs e)
+        {
+            
+        }
     }
 }
