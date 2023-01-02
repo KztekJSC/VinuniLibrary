@@ -1286,6 +1286,7 @@
             // 
             // frmRegistCard
             // 
+            this.AcceptButton = this.btnTimKiem;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 721);
@@ -1294,6 +1295,8 @@
             this.Controls.Add(this.rjProgressBar1);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.KeyPreview = true;
+            this.Name = "frmRegistCard";
             this.Text = "frmWriteData1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmWriteData_FormClosed);
             this.Load += new System.EventHandler(this.frmWriteData_Load);

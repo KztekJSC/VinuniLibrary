@@ -430,6 +430,7 @@
             // 
             // frmManager
             // 
+            this.AcceptButton = this.btnTimKiem;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1265, 685);
@@ -448,6 +449,7 @@
             this.Controls.Add(this.ckbIsDelete);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvDataSV);
+            this.KeyPreview = true;
             this.Name = "frmManager";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frmManager_Load);

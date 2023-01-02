@@ -34,6 +34,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dgvLog = new System.Windows.Forms.DataGridView();
+            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UserName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Page = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PCName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblCount = new System.Windows.Forms.Label();
             this.dtpFrom = new CustomControls.RJControls.RJDatePicker();
@@ -45,11 +50,6 @@
             this.lblTo = new System.Windows.Forms.Label();
             this.lblFrom = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UserName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Page = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PCName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLog)).BeginInit();
@@ -113,6 +113,43 @@
             this.dgvLog.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvLog.Size = new System.Drawing.Size(1033, 457);
             this.dgvLog.TabIndex = 161;
+            // 
+            // Date
+            // 
+            this.Date.DataPropertyName = "Date";
+            this.Date.HeaderText = "DateTime";
+            this.Date.Name = "Date";
+            this.Date.ReadOnly = true;
+            this.Date.Width = 200;
+            // 
+            // UserName
+            // 
+            this.UserName.DataPropertyName = "UserName";
+            this.UserName.HeaderText = "UserName";
+            this.UserName.Name = "UserName";
+            this.UserName.ReadOnly = true;
+            // 
+            // Page
+            // 
+            this.Page.DataPropertyName = "Page";
+            this.Page.HeaderText = "Page";
+            this.Page.Name = "Page";
+            this.Page.ReadOnly = true;
+            // 
+            // Description
+            // 
+            this.Description.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Description.DataPropertyName = "Description";
+            this.Description.HeaderText = "Description";
+            this.Description.Name = "Description";
+            this.Description.ReadOnly = true;
+            // 
+            // PCName
+            // 
+            this.PCName.DataPropertyName = "PCName";
+            this.PCName.HeaderText = "PC Name";
+            this.PCName.Name = "PCName";
+            this.PCName.ReadOnly = true;
             // 
             // panel3
             // 
@@ -290,50 +327,15 @@
             this.label2.TabIndex = 178;
             this.label2.Text = "Search by:";
             // 
-            // Date
-            // 
-            this.Date.DataPropertyName = "Date";
-            this.Date.HeaderText = "DateTime";
-            this.Date.Name = "Date";
-            this.Date.ReadOnly = true;
-            this.Date.Width = 200;
-            // 
-            // UserName
-            // 
-            this.UserName.DataPropertyName = "UserName";
-            this.UserName.HeaderText = "UserName";
-            this.UserName.Name = "UserName";
-            this.UserName.ReadOnly = true;
-            // 
-            // Page
-            // 
-            this.Page.DataPropertyName = "Page";
-            this.Page.HeaderText = "Page";
-            this.Page.Name = "Page";
-            this.Page.ReadOnly = true;
-            // 
-            // Description
-            // 
-            this.Description.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Description.DataPropertyName = "Description";
-            this.Description.HeaderText = "Description";
-            this.Description.Name = "Description";
-            this.Description.ReadOnly = true;
-            // 
-            // PCName
-            // 
-            this.PCName.DataPropertyName = "PCName";
-            this.PCName.HeaderText = "PC Name";
-            this.PCName.Name = "PCName";
-            this.PCName.ReadOnly = true;
-            // 
             // frmLog
             // 
+            this.AcceptButton = this.btnTimKiem;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1057, 688);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
+            this.KeyPreview = true;
             this.Name = "frmLog";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frmLog_Load);
